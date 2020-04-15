@@ -30,6 +30,7 @@ h2 {
     text-align: justify;
 }
 
-.bookingaff{
-   margin: 0 auto;
+#bookingad{
+   display: flex;
+   align-items: center;
 }
