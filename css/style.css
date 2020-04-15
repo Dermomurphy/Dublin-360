@@ -35,4 +35,5 @@ h2 {
 }
 .bookingaff{
     display: inline-block;
+    width: auto;
 }
