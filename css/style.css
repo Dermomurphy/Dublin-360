@@ -30,9 +30,11 @@ h2 {
     text-align: justify;
 }
 
+#bookingad{
+    text-align: center;
+}
 .bookingaff{
     margin: auto;
     display: inline-block;
-    text-align: center;
 
 }
