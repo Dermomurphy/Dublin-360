@@ -41,7 +41,8 @@ h2 {
 @media only screen and (max-width: 728px) {
 
     #bookingad{
-        width: 320px;
+        width: 340px;
+        margin-left: 20px;
      }    
     .bookingaff{
         display: flex;
