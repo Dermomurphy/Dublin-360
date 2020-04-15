@@ -37,3 +37,10 @@ h2 {
 .bookingaff{
     display: inline-block;
 }
+
+@media only screen and (max-width: 728px) {
+    .bookingaff{
+        display: flex;
+        width: 300px;
+    }
+  }
