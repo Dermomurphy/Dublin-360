@@ -33,4 +33,5 @@ h2 {
 #bookingad{
    display: flex;
    align-items: center;
+   justify-content: center;
 }
