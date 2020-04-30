@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dublin-360</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="media/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="media/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="media/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/media/images/favicon/site.webmanifest">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <!--Google Adsense-->
+    <script data-ad-client="ca-pub-2363725493143762" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script src="/api.js" type="text/javascript"></script>
+  
+  </head>
+  <body class="has-navbar-fixed-bottom">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <!-- navbar items, navbar burger...left side of navbar -->
+        <a class="navbar-item" href="index.html">
+          <img src="/media/images/Logo.png" alt="Dublin-360 logo" width="64" height="28">
+        </a>
+
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div id="navbarMain" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="index.html">
+            Home
+          </a>
+    
+          <a class="navbar-item" href="mailto:info@dublin-360.com?subject=Website Contact">
+            Contact
+          </a>
+    
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Categories
+            </a>
+    
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="#bars">
+                Bars
+              </a>
+              <a class="navbar-item" href="#parks">
+                Parks
+              </a>
+              <a class="navbar-item" href="#attractions">
+                Tourist Attractions
+              </a>
+              <a class="navbar-item" href="#museums">
+                Museums & Galleries
+              </a>
+              <a class="navbar-item" href="#landmarks">
+                Landmarks
+              </a>
+<!--               <hr class="navbar-divider">
+              <a class="navbar-item" href="contact.html">
+                Suggest an Item
+              </a> -->
+            </div>
+          </div>
+        </div>
+    </nav>
+  <div class="container">
+    <hr>
+      <!---Hero Section-->
+    <section class="hero has-background-light">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">
+              <img src="media/images/Logo.png" width="225" height="80" class="image">
+            </h1>
+            <h2 class="subtitle has-text-centered has-text-grey">
+              A place to find  and visit all your favourite Dublin places in 360&deg; format!
+          </div>
+          <div id="kofi" style="float: right"><a href='https://ko-fi.com/X8X81L96Q' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a></div>
+        </div>
+      </section>
+      <!--Categories Panel Section-->
+
+    <!---Body Columns Section-->
+    <section class="section" id="statsSection">
+    <h2 id="Covid-19" class="title">Covid-19 Stats Ireland - Last Updated:<span id="ireland-reported"></span></h2>
+    <hr>
+
+    <div class="container">
+        <div id="covidCols">
+         <div class="columns">
+            <div class="column">
+                <div class="card">
+
+                    <div class="card-content">
+                     
+                        <div class="content">
+                          <p class="title is-4">Deaths</p>
+                          <p class="subtitle is-6" id="ireland-deaths"></p>
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                          <hr class="red-rule">
+                    </footer>
+                  </div>
+            </div>
+            <div class="column">
+                <div class="card">
+
+                    <div class="card-content">
+                     
+                        <div class="content">
+                          <p class="title is-4">Recovered</p>
+                          <p class="subtitle is-6" id="ireland-recovered"></p>
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                          <hr class="green-rule">
+                    </footer>
+                  </div>
+            </div>
+            <div class="column">
+                <div class="card">
+
+                    <div class="card-content">
+                     
+                        <div class="content">
+                          <p class="title is-4">Total Infected</p>
+                          <p class="subtitle is-6" id="ireland-confirmed"></p>
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                          <hr class="blue-rule">
+                    </footer>
+                  </div>
+            </div>
+
+        </div>
+        </div>
+    </div>
+   
+    
+   
+    </section>
+
+ 
+  <!--Footer-->
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Dublin-360</strong> by <a href="https://www.linkedin.com/in/dermotmurphyirl">Dermot Murphy</a>.<br>
+        See the city the right way!
+      </p>
+    </div>
+  </footer>
+  </div>
+  <!---Sticky Bottoom Navbar-->
+  <nav class="navbar is-fixed-bottom" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <!-- navbar items, navbar burger...left side of navbar -->
+      <a class="navbar-item" href="index.html">
+        <img src="/media/images/Logo.png" alt="Dublin-360 logo" width="64" height="28">
+      </a>
+
+<!--       <a role="button" class="navbar-burger is-burger-up burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a> -->
+    </div>
+    <div id="navbarSticky" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="index.html">
+          Home
+        </a>
+  
+        <a class="navbar-item" href="mailto:info@dublin-360.com?subject=Website Contact">
+          Contact
+        </a>
+  
+        <div class="navbar-item has-dropdown is-hoverable has-dropdown-up">
+          <a class="navbar-link">
+            Categories
+          </a>
+  
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#bars">
+              Bars
+            </a>
+            <a class="navbar-item" href="#parks">
+              Parks
+            </a>
+            <a class="navbar-item" href="#attractions">
+              Tourist Attractions
+            </a>
+            <a class="navbar-item" href="#museums">
+              Museums & Galleries
+            </a>
+            <a class="navbar-item" href="#landmarks">
+              Landmarks
+            </a>
+          </div>
+        </div>
+      </div>
+  </nav>
+
+  <script>document.addEventListener('DOMContentLoaded', () => {
+
+    // Get all "navbar-burger" elements
+    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+  
+    // Check if there are any navbar burgers
+    if ($navbarBurgers.length > 0) {
+  
+      // Add a click event on each of them
+      $navbarBurgers.forEach( el => {
+        el.addEventListener('click', () => {
+  
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+  
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+  
+        });
+      });
+    }
+  
+  });
+</script>
+ 
+  </body>
+</html>
