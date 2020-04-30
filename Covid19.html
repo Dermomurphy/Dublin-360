@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,15 +14,15 @@
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <!--Google Adsense-->
     <script data-ad-client="ca-pub-2363725493143762" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script src="./api.js" type="text/javascript"></script>
+    
   
   </head>
   <body class="has-navbar-fixed-bottom">
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav class="navbar"  aria-label="main navigation">
       <div class="navbar-brand">
         <!-- navbar items, navbar burger...left side of navbar -->
         <a class="navbar-item" href="index.html">
-          <img src="/media/images/Logo.png" alt="Dublin-360 logo" width="64" height="28">
+          <img src="media/images/Logo.png" alt="Dublin-360 logo" width="64" height="28">
         </a>
 
         <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
@@ -37,7 +37,7 @@
             Home
           </a>
     
-          <a class="navbar-item" href="mailto:info@dublin-360.com?subject=Website Contact">
+          <a class="navbar-item" href="mailto:info@dublin-360.com?subject=WebsiteContact">
             Contact
           </a>
     
@@ -69,20 +69,21 @@
             </div>
           </div>
         </div>
+        </div>
     </nav>
   <div class="container">
     <hr>
-      <!---Hero Section-->
-    <section class="hero has-background-light">
+      <!-- Hero Section-->
+    <section class="hero is-primary is-medium is-light is-bold">
         <div class="hero-body">
           <div class="container">
-            <h1 class="title">
-              <img src="media/images/Logo.png" width="225" height="80" class="image">
-            </h1>
-            <h2 class="subtitle has-text-centered has-text-grey">
-              A place to find  and visit all your favourite Dublin places in 360&deg; format!
+            <div class='title'>
+              <img src="media/images/Logo.png" alt="D360 Logo" width="225" height="80" class="image">
+            </div>
+            <h2 class="title has-text-centered has-text-white">
+              A place to find  and visit all your favourite Dublin places in 360&deg; format!</h2>
           </div>
-          <div id="kofi" style="float: right"><a href='https://ko-fi.com/X8X81L96Q' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a></div>
+          <div id="kofi" style="float: right"><a href='https://ko-fi.com/X8X81L96Q' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' alt='Buy Me a Coffee at ko-fi.com' /></a></div>
         </div>
       </section>
       <!--Categories Panel Section-->
@@ -145,97 +146,114 @@
         </div>
     </div>
    
-    
-   
     </section>
 
- 
-  <!--Footer-->
-  <footer class="footer">
-    <div class="content has-text-centered">
-      <p>
-        <strong>Dublin-360</strong> by <a href="https://www.linkedin.com/in/dermotmurphyirl">Dermot Murphy</a>.<br>
-        See the city the right way!
-      </p>
+    <div id="bookingad">
+      <ins class="bookingaff" data-aid="2011406" data-target_aid="2011406" data-prod="banner" data-width="728" data-height="90" data-lang="en">
+        <!-- Anything inside will go away once widget is loaded. -->
+            <a href="//www.booking.com?aid=2011406">Booking.com</a>
+    </ins>
+    <script type="text/javascript">
+        (function(d, sc, u) {
+          var s = d.createElement(sc), p = d.getElementsByTagName(sc)[0];
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = u + '?v=' + (+new Date());
+          p.parentNode.insertBefore(s,p);
+          })(document, 'script', '//aff.bstatic.com/static/affiliate_base/js/flexiproduct.js');
+    </script>
     </div>
-  </footer>
-  </div>
-  <!---Sticky Bottoom Navbar-->
-  <nav class="navbar is-fixed-bottom" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <!-- navbar items, navbar burger...left side of navbar -->
-      <a class="navbar-item" href="index.html">
-        <img src="/media/images/Logo.png" alt="Dublin-360 logo" width="64" height="28">
-      </a>
-
-<!--       <a role="button" class="navbar-burger is-burger-up burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a> -->
+   
+    <!--Footer-->
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Dublin-360</strong> by <a href="https://www.linkedin.com/in/dermotmurphyirl">Dermot Murphy</a>.<br>
+          See the city the right way!
+        </p>
+        <a href="https://bulma.io">
+          <img src="media/images/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+        </a>
+      </div>
+    </footer>
     </div>
-    <div id="navbarSticky" class="navbar-menu">
-      <div class="navbar-start">
+    <!---Sticky Bottoom Navbar-->
+    <nav class="navbar is-fixed-bottom" aria-label="main navigation">
+      <div class="navbar-brand">
+        <!-- navbar items, navbar burger...left side of navbar -->
         <a class="navbar-item" href="index.html">
-          Home
+          <img src="media/images/Logo.png" alt="Dublin-360 logo" width="64" height="28">
         </a>
   
-        <a class="navbar-item" href="mailto:info@dublin-360.com?subject=Website Contact">
-          Contact
-        </a>
-  
-        <div class="navbar-item has-dropdown is-hoverable has-dropdown-up">
-          <a class="navbar-link">
-            Categories
+  <!--       <a role="button" class="navbar-burger is-burger-up burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a> -->
+      </div>
+      <div id="navbarSticky" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="index.html">
+            Home
           </a>
-  
-          <div class="navbar-dropdown">
-            <a class="navbar-item" href="#bars">
-              Bars
+    
+          <a class="navbar-item" href="mailto:info@dublin-360.com?subject=WebsiteContact">
+            Contact
+          </a>
+    
+          <div class="navbar-item has-dropdown is-hoverable has-dropdown-up">
+            <a class="navbar-link">
+              Categories
             </a>
-            <a class="navbar-item" href="#parks">
-              Parks
-            </a>
-            <a class="navbar-item" href="#attractions">
-              Tourist Attractions
-            </a>
-            <a class="navbar-item" href="#museums">
-              Museums & Galleries
-            </a>
-            <a class="navbar-item" href="#landmarks">
-              Landmarks
-            </a>
+    
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="#bars">
+                Bars
+              </a>
+              <a class="navbar-item" href="#parks">
+                Parks
+              </a>
+              <a class="navbar-item" href="#attractions">
+                Tourist Attractions
+              </a>
+              <a class="navbar-item" href="#museums">
+                Museums & Galleries
+              </a>
+              <a class="navbar-item" href="#landmarks">
+                Landmarks
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-  </nav>
-
-  <script>document.addEventListener('DOMContentLoaded', () => {
-
-    // Get all "navbar-burger" elements
-    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+        </div>
+    </nav>
   
-    // Check if there are any navbar burgers
-    if ($navbarBurgers.length > 0) {
+    <script>document.addEventListener('DOMContentLoaded', () => {
   
-      // Add a click event on each of them
-      $navbarBurgers.forEach( el => {
-        el.addEventListener('click', () => {
-  
-          // Get the target from the "data-target" attribute
-          const target = el.dataset.target;
-          const $target = document.getElementById(target);
-  
-          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-          el.classList.toggle('is-active');
-          $target.classList.toggle('is-active');
-  
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+    
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+    
+        // Add a click event on each of them
+        $navbarBurgers.forEach( el => {
+          el.addEventListener('click', () => {
+    
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+    
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+    
+          });
         });
-      });
-    }
+      }
+    
+    });</script>
   
-  });
-</script>
- 
-  </body>
-</html>
+   
+    </body>
+  </html>
