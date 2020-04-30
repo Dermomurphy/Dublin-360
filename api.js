@@ -28,7 +28,7 @@ async function getData() {
 		document.getElementById('ireland-deaths').innerText= deaths;
 		document.getElementById('ireland-recovered').innerText = recovered;
 		document.getElementById('ireland-confirmed').innerText = confirmed;
-		document.getElementById('ireland-reported').innerText = `: ${d.toDateString()}`;
+		document.getElementById('ireland-reported').innerText = ` ${d.toDateString()}`;
     })
     .catch((err) => {
       console.log(err);
