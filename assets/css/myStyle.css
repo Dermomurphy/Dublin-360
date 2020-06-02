@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Poppins:400,500,600,700,800&display=swap');
+
+
+/* --Main Generic CSS----*/
+
+html {
+    scroll-behavior:smooth;
+  }
+  
+body{
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+nav {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.main-container {
+    padding-right:0;
+    padding-left:0;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+hr{
+    background-color: red;
+    max-width: 70%;
+    border-top: 6px solid rgba(0, 0, 0, 0.2);
+}
+
+/*-- custom styling for all icons --*/
+i.fas,
+i.fab {
+  padding-right: 6px;
+  color: red;
+}
+
+/* --Jumbotron CSS----*/
+.jumbotron-fluid {
+   background-image: url('../media/images/grogansHDR.jpg');
+   min-height: 50vh;
+   position: sticky;
+   color: #fff;
+  /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+   z-index: 1;
+   margin-bottom: 20px;
+}
+
+.jumbotron-overlay{
+    background-color: rgba(36, 36, 49, 0.75);
+    min-height: 50vh;
+    z-index: 2;
+}
+
+
+.title-logo{
+    padding-top: 120px;
+}
+
+.title-logo .image{
+    width: 225px;
+    height:80px;
+}
+
+.lead {
+    padding: 20px;
+}
+
+
+
+/*-- Categories Tab CSS----*/
+.categories-tab {
+    width: 100%;
+    padding-left:0;
+    padding-right:0;
+}
+.categories-row div {
+  padding-left:0;
+  padding-right:0;
+  margin-right:0;
+  margin-left:0;
+
+
+}
+.list-group-item.active{
+    background-color: #333333;
+}
+.list-group-item i{
+    font-size: 0.9em;
+}
+
+.list-group-item a{
+    color: #333333;
+}
+
+
+/*-- Main Cards CSS----*/
+.card{
+    background-color: #333333;
+    margin-bottom: 6px;
+}
+
+.card-title{
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 800;
+    margin-top: 8px;
+    margin-left: 4px;
+    text-transform: capitalize;
+}
+.card-subtitle{
+     color:#fafafa;
+     font-weight: 600;
+     margin-left: 20px;
+}
+.card-img, .card-img-bottom, .card-img-top {
+    object-fit: cover;
+    height: 200px;
+}
+
+.card-body{
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.card-text {
+    padding-top: 2px;
+    margin-top: 4px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.card-footer {
+    background-color:#222222;
+    margin: 0;
+    padding:0;
+
+}
+.card-footer .btn {
+    margin-left: 2px;
+
+}
+
+
+/*-- Button CSS----*/
+.btn{
+    background-color: #333333;
+    border-color:aliceblue;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background-color: sandybrown;
+}
+
+.active{
+    background-color: #333333;
+}
+
+
+/* --Main Footer CSS----*/
+.main-footer{
+    background-color: #333333;
+    color: #fff;
+    margin-top: 30px;
+    padding-top: 20px;
+    min-height: 120px;
+  
+}
+
+#bootstrap-image img {
+    padding: 4px;
+    width: 40px;
+    height: 40px;
+}
+
+
+.social-menu li{
+    padding: 10px;
+    margin-left: 2px;
+}
+
+.social-list{
+   display: flex;
+   list-style: none;
+
+}
+
+.social-list li i{
+    color: #fff;
+    margin-right: 4px;
+    font-size: 36px;
+}
+
+.social-list li a{
+    color: #fff;
+
+}
+
+
+.social-list a:hover, .social-list i:hover {
+    color:sandybrown;
+
+}
+
+
+/*----Services Page ------------*/
+
+
+.featurette-divider{
+    margin-top: 1em;
+    margin-bottom:1em;
+}
+
+.featurette-image-div{
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom:20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.featurette-icon {
+    width: 300;
+    height: 300;
+}
+
+.service-items {
+    background-color: #222222;
+    padding:30px 0;
+}
+.service-item {
+    padding: 3.5em 2em 1em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 2px solid;
+}
+
+.service-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.service-item:before {
+    content: attr(data-services);
+    position: absolute;
+    left: 2.5em;
+    top: 0.5em;
+    display: block;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+.service-item:after {
+    width: 14px;
+    height: 14px;
+    display: block;
+    top: 2.1em;
+    position: absolute;
+    left: -6px;
+    border-radius: 14px;
+    content: '';
+    background: #fafafa;
+}
+
+/*--Media Queries--*/
+@media only screen and (max-width: 860px) {
+    .fa-8x {
+        font-size: 4em;
+    }
+
+    .title-logo{
+        padding-top: 80px;
+    }
+
+    .title-logo .image {
+        width: 112.5px;
+        height: 40px;
+    }
+
+    #categories {
+        width: 90%;
+        margin:auto;
+       
+    }
+    
+  }
+/*-----Contact Form CSS----------*/
+
+form{
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+form label{
+    font-size: 1.2em;
+    margin-top: 4px;
+    text-transform: capitalize;
+    
+
+}
+
+.form-group.required .control-label:after {
+    content:"*";
+    color:red;
+  }
+
+#submitButton {
+    margin-bottom: 4px;
+    font-size: 1.5em;
+}

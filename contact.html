@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dublin-360-CI|Contact</title>
+  <!--Icon-->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/media/images/favicon/favicon-32x32.png" />
+  <!---Bootstrap CDN-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <!---Fontawesome CSS CDN-->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/myStyle.css" />
+</head>
+
+<body>
+  <main class="main-container">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="./index.html"><img src="assets/media/images/Logo.png" width="100" height="36" alt="Dublin-360-logo" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          <li class="nav-item">
+            <a class="nav-link" href="./services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./contact.html">Contact<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!---Main Hero Jumbotron-->
+    <div class="jumbotron-fluid">
+      <div class="jumbotron-overlay">
+        <!--Logo-->
+        <div class="title-logo">
+          <img src="assets/media/images/Logo.png" alt="D360 Logo"  class="image" />
+        </div>
+        <h1 class="display-4">Contact Us</h1>
+        <p class="lead">
+          Send us a message
+        </p>
+        <hr class="my-4" />
+      </div>
+    </div>
+    <!--end of Jumbotron-->
+    <!--Contact Form------>
+    <form action="sendEmail.php" method="POST">
+      <div class="form-row">
+        <div class="col">
+          <!--First Name-->
+          <div class="form-group required">
+            <label for="firstName" class="control-label">First Name</label>
+            <input type="text" class="form-control" name="firstName" id="firstName" placeholder="First Name" required>
+          </div>
+        </div>
+        <div class="col">
+          <!--Last Name-->
+          <div class="form-group required">
+            <label for="lastName" class="control-label">Last Name</label>
+            <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Last Name" required>
+          </div>
+        </div>
+      </div>
+      <!--E-mail-->
+      <div class="form-group required">
+        <label class="control-label" for="email">Email address</label>
+        <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com" required>
+      </div>
+      <!--Subject Choice-->
+      <div class="form-group">
+        <label for="formSelect">Select a Subject</label>
+        <select class="form-control" name="formSelect" id="formSelect">
+          <option id="option1">Hospitality Services</option>
+          <option id="option2">Suggest a 360&deg; Attraction</option>
+        </select>
+      </div>
+      <!--Message-->
+      <div class="form-group required">
+        <label class="control-label" for="messageBody">Message</label>
+        <textarea class="form-control" name="messageBody" id="messageBody" rows="5" placeholder="Send us a message Here!"
+          required></textarea>
+      </div>
+      <!--Submit-->
+      <div class="text-center">
+        <button type="submit" class="btn btn-info" id="submitButton">Send Request</button>
+      </div>
+    </form>
+    <!---end of form-->
+
+  <!--- Footer-->
+  <footer class="main-footer container-fluid">
+    <div class="row">
+      <!--Logo Copy-->
+      <div class="col-sm-4 footer-icon">
+        <img src="assets/media/images/Logo.png" width="100" height="36" alt="Dublin-360-Logo" />
+        <h5>Dublin-360 &copy;</h5>
+        Made with Bootstrap
+        <a href="hhttps://getbootstrap.com/" target="_blank" id="bootstrap-image"><img
+            src="assets/media/images/Bootstrap/kindpng_278320.png" alt="Bootstrap Image" /></a>
+      </div>
+      <!---Divider-->
+      <div class="col-sm-4 footer-section-column">
+      </div>
+      <!--Social ICONS-->
+      <div class="col-sm-4 social-menu">
+        <div class="row">
+          <div class="col-12">
+            <h5 class="social-heading uppercase">
+              Social
+            </h5>
+          </div>
+        </div>
+        <ul class="social-list">
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com/Dublin360/" target="_blank"><i class="fab fa-facebook-square"
+                aria-hidden="true"></i><span class="sr-only">Facebook</span></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.instagram.com/dublin360/" target="_blank"><i class="fab fa-instagram"
+                aria-hidden="true"></i><span class="sr-only">Instagram</span></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/dermotmurphyirl/" target="_blank"><i class="fab fa-linkedin"
+                aria-hidden="true"></i><span class="sr-only">LinkedIn</span></a>
+          </li>
+        </ul>
+      </div>
+      </div>
+  </footer>
+</main>
+  <!--End of Footer-->
+
+  <!--- Bootstrap JQuery Popper JS-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

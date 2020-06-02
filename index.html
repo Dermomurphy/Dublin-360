@@ -1,1072 +1,645 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Dublin-360</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="media/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="media/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="media/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="media/images/favicon/site.webmanifest">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <!--Google Adsense-->
-    <script data-ad-client="ca-pub-2363725493143762" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    
-  
-  </head>
-  <body class="has-navbar-fixed-bottom">
-    <nav class="navbar"  aria-label="main navigation">
-      <div class="navbar-brand">
-        <!-- navbar items, navbar burger...left side of navbar -->
-        <a class="navbar-item" href="index.html">
-          <img src="media/images/Logo.png" alt="Dublin-360 logo" width="64" height="28">
-        </a>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!---Social Media Meta Tags-->
+  <!-- Primary Meta Tags -->
+  <title>Dublin-360-CI</title>
+  <meta name="title" content="Dublin-360-CI">
+  <meta name="description" content="See Dublin City in 360 Format |
+Hospitality Consultancy Services & Accommodation">
 
-        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dermomurphy.github.io/Dublin-360-CI">
+  <meta property="og:title" content="Dublin-360-CI">
+  <meta property="og:description" content="See Dublin City in 360 Format |
+Hospitality Consultancy Services & Accommodation">
+  <meta property="og:image" content="assets/media/images/Logo.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://dermomurphy.github.io/Dublin-360-CI">
+  <meta property="twitter:title" content="Dublin-360-CI">
+  <meta property="twitter:description" content="See Dublin City in 360 Format |
+Hospitality Consultancy Services & Accommodation">
+  <meta property="twitter:image" content="assets/media/images/Logo.png">
+  <!--Icon-->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/media/images/favicon/favicon-32x32.png" />
+  <!---Bootstrap CDN-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <!---Fontawesome CSS CDN-->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/myStyle.css" />
+</head>
+
+<body>
+  <main class="main-container">
+    <!---Navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="./index.html"><img src="assets/media/images/Logo.png" width="100" height="36"
+          alt="Dublin-360-logo" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="./services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
       </div>
-      <div id="navbarMain" class="navbar-menu">
-        <div class="navbar-start">
-          <a class="navbar-item" href="index.html">
-            Home
-          </a>
-    
-          <a class="navbar-item" href="mailto:info@dublin-360.com?subject=WebsiteContact">
-            Contact
-          </a>
-    
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link">
-              Categories
-            </a>
-    
-            <div class="navbar-dropdown">
-              <a class="navbar-item" href="#bars">
-                Bars
-              </a>
-              <a class="navbar-item" href="#parks">
-                Parks
-              </a>
-              <a class="navbar-item" href="#attractions">
-                Tourist Attractions
-              </a>
-              <a class="navbar-item" href="#museums">
-                Museums & Galleries
-              </a>
-              <a class="navbar-item" href="#landmarks">
-                Landmarks
-              </a>
-<!--               <hr class="navbar-divider">
-              <a class="navbar-item" href="contact.html">
-                Suggest an Item
-              </a> -->
-            </div>
-          </div>
-        </div>
-        </div>
     </nav>
-  <div class="container">
-    <hr>
-      <!-- Hero Section-->
-    <section class="hero is-primary is-medium is-light is-bold">
-        <div class="hero-body">
-          <div class="container">
-            <div class='title'>
-              <img src="media/images/Logo.png" alt="D360 Logo" width="225" height="80" class="image">
+    <!--End of Navbar-->
+    <!---Main Hero Jumbotron-->
+    <div class="jumbotron-fluid">
+      <div class="jumbotron-overlay">
+        <!--LOGO-->
+        <div class="title-logo">
+          <img src="assets/media/images/Logo.png" alt="D360 Logo" class="image" />
+        </div>
+        <h1 class="display-4">See the City!</h1>
+        <p class="lead">
+          A place to find and visit all your favourite Dublin places in 360°
+          format! <br>
+          & Hospitality Consultancy Services
+        </p>
+        <hr class="my-4" />
+        <a href="./services.html" class="btn btn-info btn-lg" role="button">Services Offered</a>
+      </div>
+    </div>
+    <!--end of Jumbotron-->
+    <!--Main -Categories Tabs-->
+    <section class="categories-tab">
+      <div class="container" id="categories">
+        <ul class="list-group">
+          <li class="list-group-item d-flex justify-content-center align-items-center active">
+            <h2 class="title">Categories</h2>
+          </li>
+          <div class="row categories-row d-flex justify-content-center align-items-center">
+            <div class="col-sm-4 col-md-2">
+              <li class="list-group-item d-flex justify-content-center ">
+                <a href="#bars"><i class="fas fa-beer"></i>Bars</a>
+              </li>
             </div>
-            <h2 class="title has-text-centered has-text-white">
-              A place to find  and visit all your favourite Dublin places in 360&deg; format!</h2>
+            <div class="col-sm-4 col-md-2">
+              <li class="list-group-item d-flex justify-content-center ">
+                <a href="#parks"><i class="fas fa-tree"></i>Parks</a>
+              </li>
+            </div>
+            <div class="col-sm-4 col-md-2">
+              <li class="list-group-item d-flex justify-content-center ">
+                <a href="#attractions"><i class="fas fa-monument"></i>Attractions</a>
+              </li>
+            </div>
+            <div class="col-sm-4 col-md-2">
+              <li class="list-group-item d-flex justify-content-center ">
+                <a href="#museums"><i class="fas fa-ticket-alt"></i>Museums</a>
+              </li>
+            </div>
+            <div class="col-sm-4 col-md-2">
+              <li class="list-group-item d-flex justify-content-center ">
+                <a href="#landmarks"><i class="fas fa-landmark"></i>Landmarks</a>
+              </li>
+            </div>
           </div>
-          <div id="kofi" style="float: right"><a href='https://ko-fi.com/X8X81L96Q' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' alt='Buy Me a Coffee at ko-fi.com' /></a></div>
-        </div>
-      </section>
-      <!--Categories Panel Section-->
-    <section>
-        <div class ="container">
-        <nav class="panel is-primary is-bold">
-            <h2 id="categories" class="panel-heading">
-             Categories
-            </h2>
-            <a href="#bars" class="panel-block is-active">
-              <span class="panel-icon">
-                <i class="fas fa-beer" aria-hidden="true"></i>
-              </span>
-              Bars (<div id="barCount"></div>)
-            </a>
-              <a href="#parks" class="panel-block is-active">
-              <span class="panel-icon">
-                <i class="fas fa-tree" aria-hidden="true"></i>
-              </span>
-              Parks (<div id="parkCount"></div>)
-            </a>
-            <a href="#attractions" class="panel-block is-active">
-              <span class="panel-icon">
-                <i class="fas fa-monument" aria-hidden="true"></i>
-              </span>
-              Tourist Attractions (<div id="attractionCount"></div>)
-            </a>
-            <a href="#museums" class="panel-block is-active">
-              <span class="panel-icon">
-                <i class="fas fa-landmark"></i>
-              </span>
-              Museums &amp; Galleries (<div id="museumCount"></div>)
-            </a>
-            <a href="#landmarks" class="panel-block is-active">
-              <span class="panel-icon">
-                <i class="fas fa-landmark" aria-hidden="true"></i>
-              </span>
-              Landmarks (<div id="landmarkCount"></div>)
-            </a>
-          </nav>
-        </div>
-        
+        </ul>
+      </div>
     </section>
-    <!-- Body Columns Section-->
-    <section class="section" id="barSection">
-    <h2 id="bars" class="title">Bars</h2>
-    <hr>
 
-    <div class="container">
-        <div id="barCols">
-         <div class="columns">
-            <div class="column">
-                <div class="card">
-
-                    <div class="card-content">
-                      <div class="media">
-                        <div class="media-left">
-                          <figure class="image is-128x128">
-                            <img src="media/images/stagsHead.jpg" alt="Placeholder image">
-                          </figure>
-                        </div>
-                        <div class="media-content">
-                          <p class="title is-4">The Stags Head</p>
-                          <p class="subtitle is-6">Traditional Bar</p>
-                        </div>
-                      </div>
-          
-                      <div class="content">
-                        The Stags Head is a traditional Irish pub with traditional Irish music and food in Dublin city centre. Enjoy a breath of fresh air when visiting the Stag’s Head, just a stones throw from the buzz of Grafton St. Here you will cross into a landmark with enough history it could occupy a library.
-                      </div>
-                    </div>
-                      <footer class="card-footer">
-                      <a href="https://goo.gl/maps/QpsUEAQU6HQiB3WP6" target="_blank" class="card-footer-item">Stags Head 360&deg;</a>
-                      <a href="https://stagshead.ie" target="_blank" class="card-footer-item">Visit Website</a>
-                    </footer>
-                  </div>
-            </div>
-            <div class="column">
-                <div class="card">
-
-                    <div class="card-content">
-                      <div class="media">
-                        <div class="media-left">
-                          <figure class="image is-128x128">
-                            <img src="media/images/grogansHDR.jpg" alt="Placeholder image">
-                          </figure>
-                        </div>
-                        <div class="media-content">
-                          <p class="title is-4">Grogans Pub</p>
-                          <p class="subtitle is-6">Traditional Bar</p>
-                        </div>
-                      </div>
-          
-                      <div class="content">
-                        A warm and friendly atmosphere that you would expect from your local, but with the lively buzz and intensity of an authentic Dublin city pub.
-
-                        Relax with a drink and toastie
-                        Open 7 days a week, Grogans is the perfect spot to grab a light snack, a pint of porter or a pot of tea.  Our famous toasties made with Irish cheddar cheese and traditional deli ham are available throughout the day and night. If you ask us for a ‘Special’ we guarantee that you will not be disappointed.
-                        
-                        Enjoy the conversation and atmosphere
-                        One of the few bars left where your conversation needn’t compete with a wide screen TV or stereo. Grogans is the perfect spot for catching up with friends or taking time out alone with the newspaper. With a varied clientele and good-humoured, friendly staff you can be sure of a warm welcome every visit.
-                      </div>
-                    </div>
-                      <footer class="card-footer">
-                      <a href="https://goo.gl/maps/P8jLjmtLyTp8qkNa6" target="_blank" class="card-footer-item">Visit Grogans 360&deg;</a>
-                      <a href="https://www.groganspub.ie/"  target="_blank" class="card-footer-item">Visit Website</a>
-                    </footer>
-                  </div>
-            </div>
-            <div class="column">
-                <div class="card">
-
-                    <div class="card-content">
-                      <div class="media">
-                        <div class="media-left">
-                          <figure class="image is-128x128">
-                            <img src="media/images/kehoesBar.jpg" alt="Placeholder image">
-                          </figure>
-                        </div>
-                        <div class="media-content">
-                          <p class="title is-4">Kehoes</p>
-                          <p class="subtitle is-6">Traditional Bar</p>
-                        </div>
-                      </div>
-          
-                      <div class="content">
-                         A traditional Irish bar located in the city center. Just off Grafton street and has one of the best snugs in town!
-                         Kehoes is an award-winning traditional Irish pub in the heart of Dublin. Kehoes was first licensed in 1803 and the premises that you see today was completed towards the end of the 19th century in typical Victorian style and is a treasure of authenticity. You can view stained glass mahogany doors, old Irish snugs, partitions and the entire homely feel throughout the pub – and it’s home to the best pint in Dublin!
-                      </div>
-                    </div>
-                      <footer class="card-footer">
-                      <a href="https://goo.gl/maps/XYCfKaEm9AyPL92W6" target="_blank" class="card-footer-item">Visit Kehoes 360&deg;</a>
-                      <a href="https://kehoesdublin.ie/" target="_blank" class="card-footer-item">Visit Website</a>
-                    </footer>
-                  </div>
-            </div>
-         </div>
-         <div class="columns">
-          <div class="column">
-              <div class="card">
-
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-left">
-                        <figure class="image is-128x128">
-                          <img src="media/images/oldStorehouse.jpg" alt="Placeholder image">
-                        </figure>
-                      </div>
-                      <div class="media-content">
-                        <p class="title is-4">The Old Storehouse</p>
-                        <p class="subtitle is-6">Traditional Temple Bar Bar</p>
-                      </div>
-                    </div>
-        
-                    <div class="content">
-                     
-                      They are a classic Irish Bar located in the heart of Dublin’s Cultural Quarter at 3 Crown Alley, Temple Bar, Dublin 2. This location is between Dame Street and The Halfpenny Bridge directly behind the Old Central Bank building. They pride ourselves on the warmth of the welcome we extend to all, together with their quality food and drinks service. They have 3 bar options ranging from a quiet and intimate snug bar, a lively main bar with live music sessions and our venue bar O’Flaherty’s at The Old Storehouse. In addition they have a covered smoking area.
-<br>
-OPEN EVERYDAY FROM 11AM FOR FOOD AND DRINKS AND REMAIN OPEN LATE 7 DAYS A WEEK <br>
-food and drinks service commences at 11am daily with our kitchens closing at 9pm weekdays and 10pm weekends. The bars are open until 1.30am weekdays and Sundays and with the party continuing here until 02.30am Fridays and Saturdays. They only accept reservations for parties of 6 or more. Simply join them anytime to suit you and we will seat you with the minimum of delay, if any at all.
-<br>
-LIVE MUSIC <br>
-One of the few genuine Irish music pubs in Dublin. Every day they are open they have continuous live music sessions from 3pm to close. The only change to this is when they add in extra music performances for special occasions. WE ARE OPEN 7 DAYS AND WHEN THEY ARE OPEN they HAVE LIVE MUSIC SESSIONS COMMENCING LATEST 3PM.
-                    </div>
-                  </div>
-                    <footer class="card-footer">
-                    <a href="https://goo.gl/maps/DMVuMW34waLAbjiw8" target="_blank" class="card-footer-item">Old Storehouse 360&deg;</a>
-                    <a href="https://theoldstorehouse.ie/" target="_blank" class="card-footer-item">Visit Website</a>
-                  </footer>
+    <!-- End of Categories Tab-->
+    <!--Cards section-->
+    <section class="cards-section">
+      <!--Bar-Cards -->
+      <div class="container" id="bars">
+        <h2 class="title">
+          Bars <span class="badge badge-secondary"></span>
+        </h2>
+        <hr />
+        <!--Main Row-->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="assets/media/images/stagsHead.png" class="card-img-top" alt="Stags Head" />
+              <div class="card-body">
+                <h5 class="card-title">Stags Head</h5>
+                <h6 class="card-subtitle"><i class="fas fa-quote-left"></i>Traditional Bar <i
+                    class="fas fa-quote-right"></i></h6>
+                <p class="card-text">
+                  The Stags Head is a traditional Irish pub with traditional
+                  Irish music and food in Dublin city centre. Enjoy a breath
+                  of fresh air when visiting the Stag’s Head, just a stones
+                  throw from the buzz of Grafton St. Here you will cross into
+                  a landmark with enough history it could occupy a library.
+                </p>
+              </div>
+              <div class="card-footer text-muted">
+                <div class="card-body">
+                  <a href="https://goo.gl/maps/QpsUEAQU6HQiB3WP6" target="-blank" class="btn btn-info">See Inside 360
+                    &deg;</a>
+                  <a href="https://stagshead.ie/" target="-blank" class="btn btn-info">Website</a>
                 </div>
+              </div>
+            </div>
           </div>
-          
-          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="assets/media/images/grogansHDR.jpg" class="card-img-top" alt="grogans pub" />
+              <div class="card-body">
+                <h5 class="card-title">Grogans Pub</h5>
+                <h6 class="card-subtitle"><i class="fas fa-quote-left"></i>Traditional Bar <i
+                    class="fas fa-quote-right"></i></h6>
+                <p class="card-text">
+                  A warm and friendly atmosphere that you would expect from
+                  your local, but with the lively buzz and intensity of an
+                  authentic Dublin city pub. Relax with a drink and toastie
+                  Open 7 days a week, Grogans is the perfect spot to grab a
+                  light snack, a pint of porter or a pot of tea. Our famous
+                  toasties made with Irish cheddar cheese and traditional deli
+                  ham are available throughout the day and night. If you ask
+                  us for a ‘Special’ we guarantee that you will not be
+                  disappointed. Enjoy the conversation and atmosphere One of
+                  the few bars left where your conversation needn’t compete
+                  with a wide screen TV or stereo. Grogans is the perfect spot
+                  for catching up with friends or taking time out alone with
+                  the newspaper. With a varied clientele and good-humoured,
+                  friendly staff you can be sure of a warm welcome every
+                  visit.
+                </p>
+              </div>
+              <div class="card-footer text-muted">
+                <div class="card-body">
+                  <a href="https://goo.gl/maps/P8jLjmtLyTp8qkNa6" target="-blank" class="btn btn-info">See Inside 360
+                    &deg;</a>
+                  <a href="https://www.groganspub.ie/" target="-blank" class="btn btn-info">Website</a>
+                </div>
+              </div>
 
-       </div>
-        </div>      
-    
-   
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="assets/media/images/kehoesBar.jpg" class="card-img-top" alt="Kehoes Bar" />
+              <div class="card-body">
+                <h5 class="card-title">Kehoes</h5>
+                <h6 class="card-subtitle"><i class="fas fa-quote-left"></i>Traditional Bar <i
+                    class="fas fa-quote-right"></i></h6>
+                <p class="card-text">
+                  A traditional Irish bar located in the city center. Just off Grafton street and has one of the best
+                  snugs in town! Kehoes is an award-winning traditional Irish pub in the heart of Dublin. Kehoes was
+                  first licensed in 1803 and the premises that you see today was completed towards the end of the 19th
+                  century in typical Victorian style and is a treasure of authenticity. You can view stained glass
+                  mahogany doors, old Irish snugs, partitions and the entire homely feel throughout the pub – and it’s
+                  home to the best pint in Dublin!
+                </p>
+              </div>
+              <div class="card-footer text-muted">
+                <div class="card-body">
+                  <a href="https://goo.gl/maps/XYCfKaEm9AyPL92W6" target="_blank" class="btn btn-info">See Inside 360
+                    &deg;</a>
+                  <a href="https://kehoesdublin.ie/" target="_blank" class="btn btn-info">Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End of Bar-Cards-->
+      <!---Park-Cards-->
+      <div class="container" id="parks">
+        <h2 class="title">
+          Parks <span class="badge badge-secondary"></span>
+        </h2>
+        <hr />
+        <!--Main Row-->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="assets/media/images/phoenixPark.jpg" class="card-img-top" alt="Phoenix Park" />
+              <div class="card-body">
+                <h5 class="card-title">Phoenix Park</h5>
+                <h6 class="card-subtitle"><i class="fas fa-quote-left"></i>City Park <i class="fas fa-quote-right"></i>
+                </h6>
+                <p class="card-text">
+                  Phoenix Park (Irish: Páirc an Fhionnuisce) is an urban park in Dublin, Ireland, lying 2–4 km west of
+                  the city centre, north of the River Liffey. Its 11 km perimeter wall encloses 707 hectares (1,750
+                  acres); it is one of the largest enclosed recreational spaces within any European capital city. It
+                  includes large areas of grassland and tree-lined avenues, and since the 17th century has been home to
+                  a herd of wild fallow deer. The English name comes from the Irish fionn uisce meaning "clear water".
+                  The Irish Government is lobbying UNESCO to have the park designated as a world heritage site
+                </p>
+              </div>
+              <div class="card-footer text-muted">
+                <div class="card-body">
+                  <a href="https://goo.gl/maps/Gsi5jVhWDf4Mpcc67" target="_blank" class="btn btn-info">See Inside 360
+                    &deg;</a>
+                  <a href="http://www.phoenixpark.ie/" target="_blank" class="btn btn-info">Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="assets/media/images/stephensGreen.jpg" class="card-img-top" alt="stephens Green" />
+              <div class="card-body">
+                <h5 class="card-title">Stephens Green</h5>
+                <h6 class="card-subtitle"><i class="fas fa-quote-left"></i>City Park <i class="fas fa-quote-right"></i>
+                </h6>
+                <p class="card-text">
+                  St Stephen's Green (Irish: Faiche Stiabhna) is a city centre public park in Dublin, Ireland. The
+                  current landscape of the park was designed by William Sheppard. It was officially re-opened to the
+                  public on Tuesday, 27 July 1880 by Lord Ardilaun. The park is adjacent to one of Dublin's main
+                  shopping streets, Grafton Street, and to a shopping centre named for it, while on its surrounding
+                  streets are the offices of a number of public bodies as well as a stop on one of Dublin's Luas tram
+                  lines. It is often informally called Stephen's Green. At 22 acres (8.9 ha), it is the largest of the
+                  parks in Dublin's main Georgian garden squares. Others include nearby Merrion Square and Fitzwilliam
+                  Square.
+                </p>
+              </div>
+              <div class="card-footer text-muted">
+                <div class="card-body">
+                  <a href="https://goo.gl/maps/xSYaJ8Z1reuZTbHGA" target="_blank" class="btn btn-info">See Inside 360
+                    &deg;</a>
+                  <a href="http://ststephensgreenpark.ie/" class="btn btn-info">Website</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="assets/media/images/warMemorial.jpeg" class="card-img-top" alt="War Memorial Garden" />
+              <div class="card-body">
+                <h5 class="card-title">War Memorial Gardens</h5>
+                <h6 class="card-subtitle"><i class="fas fa-quote-left"></i>City Park <i class="fas fa-quote-right"></i>
+                </h6>
+                <p class="card-text">
+                  The Irish National War Memorial Gardens (Irish: Gairdíní Náisiúnta Cuimhneacháin Cogaidh na hÉireann)
+                  is an Irish war memorial in Islandbridge, Dublin, dedicated "to the memory of the 49,400 Irish
+                  soldiers who gave their lives in the Great War, 1914–1918",[1] out of over 300,000 Irishmen who served
+                  in all armies. Central Sunken Rose Garden with view of one of the pairs of granite Bookrooms Circular
+                  Sunken Rose Garden in side view, showing one of four granite Bookrooms The Memorial Gardens also
+                  commemorate all other Irish men and women who at that time served, fought and died in Irish regiments
+                  of the Allied armies, the British, Canadian, Australian, New Zealand, South African and United States
+                  armies in support of the Triple Entente's war effort against the Central Powers.
+                </p>
+              </div>
+              <div class="card-footer text-muted">
+                <div class="card-body">
+                  <a href="https://goo.gl/maps/SPArN8Tugq4uTDDPA" target="_blank" class="btn btn-info">See Inside 360
+                    &deg;</a>
+                  <a href="http://www.heritageireland.ie/en/dublin/warmemorialgardens/" target="_blank"
+                    class="btn btn-info">Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End of Park-Cards-->
+      <!---Attraction-Cards-->
+      <div class="container" id="attractions">
+        <h2 class="title">
+          Attractions <span class="badge badge-secondary"></span>
+        </h2>
+        <hr />
+        <!--Main Row-->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="assets/media/images/TCD.jpg" class="card-img-top" alt="Trinity Library" />
+              <div class="card-body">
+                <h5 class="card-title">Trinity College</h5>
+                <h6 class="card-subtitle"><i class="fas fa-quote-left"></i>University <i class="fas fa-quote-right"></i>
+                </h6>
+                <p class="card-text">
+                  Trinity College Dublin: One of Ireland's most prestigious universites.Trinity College (Irish: Coláiste
+                  na Tríonóide), officially the College of the Holy and Undivided Trinity of Queen Elizabeth near
+                  Dublin, is the sole constituent college of the University of Dublin, a research university located in
+                  Dublin, Ireland. The college was founded in 1592 by Queen Elizabeth I as "the mother of a university"
+                  that was modeled after the collegiate universities of Oxford and Cambridge, but unlike these
+                  affiliated institutions, only one college was ever established; as such, the designations "Trinity
+                  College" and "University of Dublin" are usually synonymous for practical purposes.
+                </p>
+              </div>
+              <div class="card-footer text-muted">
+                <div class="card-body">
+                  <a href="https://goo.gl/maps/eV9NS2V2Fw9URQon7" target="_blank" class="btn btn-info">See Inside 360
+                    &deg;</a>
+                  <a href="https://tcd.ie/" target="_blank" class="btn btn-info">Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="assets/media/images/trinityLibrary.jpg" class="card-img-top" alt="Trinity Library" />
+              <div class="card-body">
+                <h5 class="card-title">Book Of Kells</h5>
+                <h6 class="card-subtitle"><i class="fas fa-quote-left"></i>Manuscript <i class="fas fa-quote-right"></i>
+                </h6>
+
+                <p class="card-text">
+                  Book of Kells and Grand library location for illuminated illustrations of the Christian Gospels,
+                  dating from 800 A.D. The Library of Trinity College Dublin (Irish: Leabharlann Choláiste na Tríonóide)
+                  serves Trinity College and the University of Dublin. It is a legal deposit or "copyright library",
+                  which means that publishers in Ireland must deposit a copy of all their publications there, free of
+                  charge.It is also the only Irish library to hold such rights for the United Kingdom.The Library is the
+                  permanent home to the Brian Boru harp which is a national symbol of Ireland, a copy of 1916
+                  Proclamation of the Irish Republic, and the Book of Kells. Two of the four volumes of the Book of
+                  Kells are on public display, one opened to a major decorated page and the other to a typical page of
+                  text. The volumes and pages shown are regularly changed.Members of the University of Dublin also have
+                  access to the libraries of Tallaght University Hospital and the Irish School of Ecumenics, Milltown.
+                </p>
+              </div>
+              <div class="card-footer text-muted">
+                <div class="card-body">
+                  <a href="https://earth.app.goo.gl/86nVWn" target="_blank" class="btn btn-info">See Inside 360
+                    &deg;</a>
+                  <a href="https://www.tcd.ie/visitors/book-of-kells/" target="_blank" class="btn btn-info">Website</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="assets/media/images/nationalLibrary.jpeg" class="card-img-top" alt="national Library" />
+              <div class="card-body">
+                <h5 class="card-title">National Library</h5>
+                <h6 class="card-subtitle"><i class="fas fa-quote-left"></i>Library <i class="fas fa-quote-right"></i>
+                </h6>
+
+                <p class="card-text">
+                  Non-lending library, housing the personal notes of Roddy Doyle, Seamus Heaney and James Joyce. The
+                  National Library of Ireland (NLI; Irish: Leabharlann Náisiúnta na hÉireann) is the Republic of
+                  Ireland's national library located in Dublin, in a building designed by Thomas Newenham Deane. The
+                  Minister for Culture, Heritage and the Gaeltacht is the member of the Government of Ireland
+                  responsible for the library. The mission of the National Library of Ireland is 'To collect, preserve,
+                  promote and make accessible the documentary and intellectual record of the life of Ireland and to
+                  contribute to the provision of access to the larger universe of recorded knowledge' The library is a
+                  reference library and, as such, does not lend. It has a large quantity of Irish and Irish-related
+                  material which can be consulted without charge; this includes books, maps, manuscripts, music,
+                  newspapers, periodicals and photographs. Included in their collections is material issued by private
+                  as well as government publishers.
+                </p>
+              </div>
+              <div class="card-footer text-muted">
+                <div class="card-body">
+                  <a href="https://earth.app.goo.gl/X72FgC" target="_blank" class="btn btn-info">See Inside 360
+                    &deg;</a>
+                  <a href="https://www.nli.ie/" target="_blank" class="btn btn-info">Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---Museum-Cards-->
+      <div class="container" id="museums">
+        <h2 class="title">
+          Museums <span class="badge badge-secondary"></span>
+        </h2>
+        <hr />
+        <!--Main Row-->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="assets/media/images/nationalGallery.jpg" class="card-img-top" alt="National Gallery" />
+              <div class="card-body">
+                <h5 class="card-title">National Gallery</h5>
+                <h6 class="card-subtitle"><i class="fas fa-quote-left"></i>Library <i class="fas fa-quote-right"></i>
+                </h6>
+                <p class="card-text">
+                  Grand collection of European art spanning the 14th to the 20th-century covering all major schools.
+                  Their mission is to care for, interpret, develop and showcase art in a way that makes the National
+                  Gallery of Ireland an exciting place to encounter art. They aim to provide an outstanding experience
+                  that inspires an interest in and an appreciation of art for all. They are dedicated to bringing people
+                  and their art together.
+                </p>
+              </div>
+              <div class="card-footer text-muted">
+                <div class="card-body">
+                  <a href="https://www.virtualvisittours.com/national-gallery-of-ireland/" target="_blank"
+                    class="btn btn-info">See Inside 360 &deg;</a>
+                  <a href="https://www.nationalgallery.ie/" target="_blank" class="btn btn-info">Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="assets/media/images/naturalHistoryMuseum.jpeg" class="card-img-top"
+                alt="Natural History Museum" />
+              <div class="card-body">
+                <h5 class="card-title">National Museum of Ireland - Natural History</h5>
+                <h6 class="card-subtitle"><i class="fas fa-quote-left"></i>Museum <i class="fas fa-quote-right"></i>
+                </h6>
+
+                <p class="card-text">
+                  The National Museum of Ireland – Natural History (Irish: Ard-Mhúsaem na hÉireann – Stair an Dúlra),
+                  sometimes called the Dead Zoo, a branch of the National Museum of Ireland, is housed on Merrion Street
+                  in Dublin, Ireland. The museum was built in 1856 for parts of the collection of the Royal Dublin
+                  Society and the building and collection were later passed to the State. The Museum's collection and
+                  building have changed little since Victorian times, and it is sometimes described as a "museum of a
+                  museum." Admission is free. Attendance grew from 106 thousand in 2007 to over 336 thousand in 2017,
+                  despite staff shortages and closed sections.
+                </p>
+              </div>
+              <div class="card-footer text-muted">
+                <div class="card-body">
+                  <a href="https://www.museum.ie/Natural-History/Exhibitions/Current-Exhibitions/3D-Virtual-Visit-Natural-History"
+                    target="_blank" class="btn btn-info">See Inside 360 &deg;</a>
+                  <a href="https://www.museum.ie/Natural-History" target="_blank" class="btn btn-info">Website</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="assets/media/images/decorativeArts.jpg" class="card-img-top"
+                alt="National Museum Decorative Arts." />
+              <div class="card-body">
+                <h5 class="card-title">National Museum - Decorative Arts</h5>
+                <h6 class="card-subtitle"><i class="fas fa-quote-left"></i>Museum <i class="fas fa-quote-right"></i>
+                </h6>
+
+                <p class="card-text">
+                  The National Museum of Ireland - Decorative Arts & History (Irish: Ard-Mhúsaem na hÉireann - Na
+                  hEalaíona Maisiúla ⁊ Stair) is a branch of the National Museum of Ireland located at the former
+                  Collins Barracks in the Arbour Hill area of Dublin, Ireland. The site, opened in 1997, also holds the
+                  Museum's administrative centre, a shop and a coffee shop. This section has displays of furniture,
+                  silver, ceramics and glassware, as well as examples of folk life and costume, and money and weapons.
+                  The "Soldiers & Chiefs" exhibition features military artifacts and memorabilia tracing Ireland's
+                  military history from 1550 to the present. Other permanent exhibitions include ones on Irish coins and
+                  currency, silverware, furniture, the designer Eileen Gray, Asian art, "Curator's Choice" (including a
+                  Chinese porcelain vase from about 1300 AD, the Fonthill vase), folklife and costumes, ceramics, and
+                  glassware. Included are artifacts such as Etruscan vases, gauntlets worn by King William at the Battle
+                  of the Boyne, a life belt and oar salvaged from the wreck of the RMS Lusitania and a pocket book
+                  carried by Wolfe Tone whilst imprisoned in the Barracks. Special exhibitions are mounted regularly; in
+                  summer 2007, for example, replicas of six Irish High Crosses that were subsequently shown
+                  internationally.
+                </p>
+              </div>
+              <div class="card-footer text-muted">
+                <div class="card-body">
+                  <a href="https://goo.gl/maps/CniiErCreug1oQor7" target="_blank" class="btn btn-info">See Inside 360
+                    &deg;</a>
+                  <a href="https://www.museum.ie/Decorative-Arts-History" class="btn btn-info">Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Landmark-Cards-->
+      <div class="container" id="landmarks">
+        <h2 class="title">
+          Landmarks <span class="badge badge-secondary"></span>
+        </h2>
+        <hr />
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="assets/media/images/fusiliersArch.jpeg" class="card-img-top" alt="fusiliersArch" />
+              <div class="card-body">
+                <h5 class="card-title">Fusiliers Arch</h5>
+                <h6 class="card-subtitle"><i class="fas fa-quote-left"></i>Arch-Entrance to Stephens Green <i
+                    class="fas fa-quote-right"></i></h6>
+
+                <p class="card-text">
+                  Fusiliers' Arch is a monument which forms part of the Grafton Street entrance to St Stephen's Green
+                  park, in Dublin, Ireland. Erected in 1907, it was dedicated to the officers, non-commissioned officers
+                  and enlisted men of the Royal Dublin Fusiliers who fought and died in the Second Boer War (1899–1902).
+                </p>
+              </div>
+              <div class="card-footer text-muted">
+                <div class="card-body">
+                  <a href="https://earth.app.goo.gl/Y2s6Vo" target="_blank" class="btn btn-info">See 360 &deg;</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="assets/media/images/cityHall.jpg" class="card-img-top" alt="City Hall" />
+              <div class="card-body">
+                <h5 class="card-title">City Hall</h5>
+                <h6 class="card-subtitle"><i class="fas fa-quote-left"></i>Dublin City Hall <i
+                    class="fas fa-quote-right"></i></h6>
+
+                <p class="card-text">
+                  This Georgian-style civic building with a rotunda offers a multi-media exhibition, tours and lectures.
+                  City Hall was built between 1769 and 1779. The build took ten years to complete. When they decided to
+                  build City Hall a competition was advertised and 62 submissions were made. The winner of this
+                  Competition was Thomas Cooley, a young architect from London. At the time, James Gandon would have
+                  been the primary architect in Dublin, but his designs came second in the competition. Thomas Cooley
+                  was also tendered to build the Four Courts, however at 44 years of age, he fell ill and died and
+                  therefore James Gandon became the primary architect in the building of the Four Courts.
+                </p>
+              </div>
+              <div class="card-footer text-muted">
+                <div class="card-body">
+                  <a href="https://earth.app.goo.gl/kwobGs" target="_blank" class="btn btn-info">See Inside 360
+                    &deg;</a>
+                  <a href="http://www.dublincity.ie/dublincityhall" target="_blank" class="btn btn-info">Website</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="assets/media/images/graftonStreet.jpg" class="card-img-top" alt="Grafton Street" />
+              <div class="card-body">
+                <h5 class="card-title">Grafton Street</h5>
+                <h6 class="card-subtitle"><i class="fas fa-quote-left"></i>Dublin City Hall <i
+                    class="fas fa-quote-right"></i></h6>
+                <p class="card-text">
+                  Grafton Street (Irish: Sráid Grafton) is one of the two principal shopping streets in Dublin city
+                  centre, the other being Henry Street. It runs from St Stephen's Green in the south (at the highest
+                  point of the street) to College Green in the north (to the lowest point). In 2008, Grafton Street was
+                  the fifth most expensive main shopping street in the world, at €5,621/m²/year, and the thirteenth most
+                  expensive main shopping street in the world in 2016 at approx €3,300/m²/year.
+                </p>
+              </div>
+              <div class="card-footer text-muted">
+                <div class="card-body">
+                  <a href="https://goo.gl/maps/4WZ9waff2nwT95az5" target="_blank" class="btn btn-info">See 360 &deg;</a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </section>
-  <!-- Parks Section-->
-  <section class="section" id="parkSection">
-    <h2 id="parks" class="title">Parks</h2>
-    <hr>
-
-    <div class="container">
-        <div id="parkCols">
-        <div class="columns">
-            <div class="column">
-                <div class="card">
-
-                    <div class="card-content">
-                      <div class="media">
-                        <div class="media-left">
-                          <figure class="image is-128x128">
-                            <img src="media/images/phoenixPark.jpg" alt="Placeholder image">
-                          </figure>
-                        </div>
-                        <div class="media-content">
-                          <p class="title is-4">Phoenix Park</p>
-                          <p class="subtitle is-6">City Park</p>
-                        </div>
-                      </div>
-          
-                      <div class="content">
-                        Phoenix Park (Irish: Páirc an Fhionnuisce) is an urban park in Dublin, Ireland, lying 2–4 km west of the city centre, north of the River Liffey. Its 11 km perimeter wall encloses 707 hectares (1,750 acres); it is one of the largest enclosed recreational spaces within any European capital city. It includes large areas of grassland and tree-lined avenues, and since the 17th century has been home to a herd of wild fallow deer. The English name comes from the Irish fionn uisce meaning "clear water". The Irish Government is lobbying UNESCO to have the park designated as a world heritage site
-                      </div>
-                    </div>
-                      <footer class="card-footer">
-                      <a href="https://goo.gl/maps/Gsi5jVhWDf4Mpcc67" target="_blank" class="card-footer-item">Visit Phoenix Park 360&deg;</a>
-                      <a href="http://www.phoenixpark.ie/" target="_blank" class="card-footer-item">Visit Website</a>
-                    </footer>
-                  </div>
+    <!--End of Cards Section-->
+    <!--- Footer-->
+    <footer class="main-footer container-fluid">
+      <div class="row">
+        <!-- Logo Copy-->
+        <div class="col-sm-4 footer-icon">
+          <img src="assets/media/images/Logo.png" width="100" height="36" alt="Dublin-360-logo" />
+          <h5>Dublin-360 &copy;</h5>
+          Made with Bootstrap
+          <a href="hhttps://getbootstrap.com/" target="_blank" id="bootstrap-image"><img
+              src="assets/media/images/Bootstrap/kindpng_278320.png" alt="Bootstrap Image" /></a>
+        </div>
+        <!--Divider - future content-->
+        <div class="col-sm-4 bg-color-footer-services footer-section-column">
+        </div>
+        <!--Social Icons-->
+        <div class="col-sm-4 social-menu">
+          <div class="row">
+            <div class="col-12">
+              <h5 class="social-heading uppercase">
+                Social
+              </h5>
             </div>
-            <div class="column">
-                <div class="card">
-
-                    <div class="card-content">
-                      <div class="media">
-                        <div class="media-left">
-                          <figure class="image is-128x128">
-                            <img src="media/images/stephensGreen.jpg" alt="Placeholder image">
-                          </figure>
-                        </div>
-                        <div class="media-content">
-                          <p class="title is-4">Stephens Green</p>
-                          <p class="subtitle is-6">City Park</p>
-                        </div>
-                      </div>
-          
-                      <div class="content">
-                        St Stephen's Green (Irish: Faiche Stiabhna) is a city centre public park in Dublin, Ireland. The current landscape of the park was designed by William Sheppard. It was officially re-opened to the public on Tuesday, 27 July 1880 by Lord Ardilaun. The park is adjacent to one of Dublin's main shopping streets, Grafton Street, and to a shopping centre named for it, while on its surrounding streets are the offices of a number of public bodies as well as a stop on one of Dublin's Luas tram lines. It is often informally called Stephen's Green. At 22 acres (8.9 ha), it is the largest of the parks in Dublin's main Georgian garden squares. Others include nearby Merrion Square and Fitzwilliam Square.
-                      </div>
-                    </div>
-                      <footer class="card-footer">
-                      <a href="https://goo.gl/maps/xSYaJ8Z1reuZTbHGA" target="_blank" class="card-footer-item">Visit Stephens Green 360&deg;</a>
-                      <a href="http://ststephensgreenpark.ie/" target="_blank" class="card-footer-item">Visit Website</a>
-                    </footer>
-                  </div>
-            </div>
-            <div class="column">
-                <div class="card">
-
-                    <div class="card-content">
-                      <div class="media">
-                        <div class="media-left">
-                          <figure class="image is-96x96">
-                            <img src="media/images/warMemorial.jpeg" alt="Placeholder image">
-                          </figure>
-                        </div>
-                        <div class="media-content">
-                          <p class="title is-4">War Memorial Gardens</p>
-                          <p class="subtitle is-6">Memorial Garden</p>
-                        </div>
-                      </div>
-          
-                      <div class="content">
-                        The Irish National War Memorial Gardens (Irish: Gairdíní Náisiúnta Cuimhneacháin Cogaidh na hÉireann) is an Irish war memorial in Islandbridge, Dublin, dedicated "to the memory of the 49,400 Irish soldiers who gave their lives in the Great War, 1914–1918",[1] out of over 300,000 Irishmen who served in all armies.
-
-
-Central Sunken Rose Garden
-with view of one of the pairs of granite Bookrooms
-
-Circular Sunken Rose Garden
-in side view, showing one of four granite Bookrooms
-The Memorial Gardens also commemorate all other Irish men and women who at that time served, fought and died in Irish regiments of the Allied armies, the British, Canadian, Australian, New Zealand, South African and United States armies in support of the Triple Entente's war effort against the Central Powers.
-                      </div>
-                    </div>
-                      <footer class="card-footer">
-                      <a href="https://goo.gl/maps/SPArN8Tugq4uTDDPA" target="_blank" class="card-footer-item">War Mermorial 360&deg;</a>
-                      <a href="http://www.heritageireland.ie/en/dublin/warmemorialgardens/" target="_blank" class="card-footer-item">Visit Website&deg;</a>
-                    </footer>
-                  </div>
-            </div>
+          </div>
+          <ul class="social-list">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/Dublin360/" target="_blank"><i class="fab fa-facebook-square"
+                  aria-hidden="true"></i><span class="sr-only">Facebook</span></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/dublin360/" target="_blank"><i class="fab fa-instagram"
+                  aria-hidden="true"></i><span class="sr-only">Instagram</span></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/dermotmurphyirl/" target="_blank"><i class="fab fa-linkedin"
+                  aria-hidden="true"></i><span class="sr-only">LinkedIn</span></a>
+            </li>
+          </ul>
         </div>
       </div>
-         
-    </div>
-   
- </section>
-  <!-- Attractions Section-->
-  <section class="section" id="attractionSection">
-    <h2 id="attractions" class="title">Tourist Attractions</h2>
-    <hr>
+    </footer>
+    <!--End of Footer-->
+  </main>
+  <!--- Bootstrap JQuery Popper JS-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
 
-    <div class="container">
-        <div id="attractionCols">
-        <div class="columns">
-            <div class="column">
-                <div class="card">
-
-                    <div class="card-content">
-                      <div class="media">
-                        <div class="media-left">
-                          <figure class="image is-96x96">
-                            <img src="media/images/TCD.jpeg" alt="Placeholder image">
-                          </figure>
-                        </div>
-                        <div class="media-content">
-                          <p class="title is-4">Trinity College</p>
-                          <p class="subtitle is-6">University</p>
-                        </div>
-                      </div>
-          
-                      <div class="content">
-                        Trinity College Dublin: One of Ireland's most prestigious universites.Trinity College (Irish: Coláiste na Tríonóide), officially the College of the Holy and Undivided Trinity of Queen Elizabeth near Dublin, is the sole constituent college of the University of Dublin, a research university located in Dublin, Ireland. The college was founded in 1592 by Queen Elizabeth I as "the mother of a university" that was modeled after the collegiate universities of Oxford and Cambridge, but unlike these affiliated institutions, only one college was ever established; as such, the designations "Trinity College" and "University of Dublin" are usually synonymous for practical purposes.
-                      </div>
-                    </div>
-                      <footer class="card-footer">
-                      <a href="https://goo.gl/maps/eV9NS2V2Fw9URQon7" target="_blank" class="card-footer-item">Visit Trinity College 360&deg;</a>
-                      <a href="https://tcd.ie" target="_blank" class="card-footer-item">Visit Website</a>
-                    </footer>
-                  </div>
-            </div>
-            <div class="column">
-                <div class="card">
-
-                    <div class="card-content">
-                      <div class="media">
-                        <div class="media-left">
-                          <figure class="image is-96x96">
-                            <img src="media/images/trinityLibrary.jpg" alt="Placeholder image">
-                          </figure>
-                        </div>
-                        <div class="media-content">
-                          <p class="title is-4">Book Of Kells</p>
-                          <p class="subtitle is-6">Tourist Attraction</p>
-                        </div>
-                      </div>
-          
-                      <div class="content">
-                        Book of Kells and Grand library location for illuminated illustrations of the Christian Gospels, dating from 800 A.D.
-                        The Library of Trinity College Dublin (Irish: Leabharlann Choláiste na Tríonóide) serves Trinity College and the University of Dublin. It is a legal deposit or "copyright library", which means that publishers in Ireland must deposit a copy of all their publications there, free of charge.It is also the only Irish library to hold such rights for the United Kingdom.The Library is the permanent home to the Brian Boru harp which is a national symbol of Ireland, a copy of 1916 Proclamation of the Irish Republic, and the Book of Kells. Two of the four volumes of the Book of Kells are on public display, one opened to a major decorated page and the other to a typical page of text. The volumes and pages shown are regularly changed.Members of the University of Dublin also have access to the libraries of Tallaght University Hospital and the Irish School of Ecumenics, Milltown.
-                      </div>
-                    </div>
-                      <footer class="card-footer">
-                      <a href="https://earth.app.goo.gl/86nVWn" target="_blank" class="card-footer-item">Visit Book of Kells Library</a>
-                      <a href="https://www.tcd.ie/visitors/book-of-kells/" target="_blank" class="card-footer-item">Visit Website</a>
-                    </footer>
-                  </div>
-            </div>
-            <div class="column">
-                <div class="card">
-
-                    <div class="card-content">
-                      <div class="media">
-                        <div class="media-left">
-                          <figure class="image is-128x128">
-                            <img src="media/images/nationalLibrary.jpeg" alt="Placeholder image">
-                          </figure>
-                        </div>
-                        <div class="media-content">
-                          <p class="title is-4">National Library of Ireland</p>
-                          <p class="subtitle is-6">Library</p>
-                        </div>
-                      </div>
-          
-                      <div class="content">
-                        Non-lending library, housing the personal notes of Roddy Doyle, Seamus Heaney and James Joyce.
-                        The National Library of Ireland (NLI; Irish: Leabharlann Náisiúnta na hÉireann) is the Republic of Ireland's national library located in Dublin, in a building designed by Thomas Newenham Deane. The Minister for Culture, Heritage and the Gaeltacht is the member of the Government of Ireland responsible for the library.
-
-The mission of the National Library of Ireland is 'To collect, preserve, promote and make accessible the documentary and intellectual record of the life of Ireland and to contribute to the provision of access to the larger universe of recorded knowledge'
-
-The library is a reference library and, as such, does not lend. It has a large quantity of Irish and Irish-related material which can be consulted without charge; this includes books, maps, manuscripts, music, newspapers, periodicals and photographs. Included in their collections is material issued by private as well as government publishers.
-                      </div>
-                    </div>
-                      <footer class="card-footer">
-                      <a href="https://earth.app.goo.gl/X72FgC" target="_blank" class="card-footer-item">Visit National Library</a>
-                      <a href="https://www.nli.ie/" target="_blank" class="card-footer-item">Visit Website</a>
-                    </footer>
-                  </div>
-            </div>
-        </div>
-        <div class="columns">
-                <div class="column">
-                    <div class="card">
-    
-                        <div class="card-content">
-                          <div class="media">
-                            <div class="media-left">
-                              <figure class="image is-96x96">
-                                <img src="media/images/jamesonDistillery.jpg" alt="Placeholder image">
-                              </figure>
-                            </div>
-                            <div class="media-content">
-                              <p class="title is-4">Jameson Distillery</p>
-                              <p class="subtitle is-6">Distillery Tour</p>
-                            </div>
-                          </div>
-              
-                          <div class="content">
-                             Jameson Distillery located in Smithfield on Bow St. is an Irish whiskey tourist attraction located just off Smithfield Square in Dublin, Ireland. Jameson Distillery Bow St. is the original site where Jameson Irish Whiskey was distilled until 1971
-                             History
-The original distillery on this site was called the Bow Street Distillery and was established in 1780. John Jameson took full ownership (he was previously the general manager) and expanded the distillery in 1805. By 1810, the operation was officially renamed to John Jameson & Son’s Bow Street Distillery. The distillery grew to an upwards of 5 acres (2 ha) by 1886.
-
-At this time, it was described by many as a "city within a city". The distillery also housed a Smithy, Cooperage, saw mills, engineers, carpenters, painters and coppersmiths’ shops. Water for the distillery came from two deep wells dug underneath the site. Cellars were also dug underneath nearby streets to store maturing whiskey, while four stills and two wash stills, each holding 24,000 gallons (109,000 L), were heated by both fire and steam coils above.
-
-Following a difficult period that included American Prohibition, Ireland’s trade war with Great Britain, and the introduction of Scotch blended whiskey, the Jameson distillery fell on hard times and decided to form the Irish Distillers Group with their previous rivals, the Cork Distilleries Company and John Power & Son in 1966. Eventually, it became one of the last distilleries in Ireland to close in 1971. The operation was then moved out of Dublin to the New Midleton Distillery.
-                          </div>
-                        </div>
-                          <footer class="card-footer">
-                          <a href="https://www.virtualvisittours.com/jameson-bow-st-dublin/" target="_blank" class="card-footer-item">Visit Jameson 360&deg;</a>
-                          <a href="https://www.jamesonwhiskey.com/en-IE/visit-us/jameson-distillery-bow-st" target="_blank" class="card-footer-item">Visit Jameson</a>
-
-                        </footer>
-                      </div>
-                </div>
-                <div class="column">
-                    <div class="card">
-    
-                        <div class="card-content">
-                          <div class="media">
-                            <div class="media-left">
-                              <figure class="image is-96x96">
-                                <img src="media/images/christChurchCathedral.jpg" alt="Placeholder image">
-                              </figure>
-                            </div>
-                            <div class="media-content">
-                              <p class="title is-4">Christchurch Cathedral</p>
-                              <p class="subtitle is-6">Cathedral</p>
-                            </div>
-                          </div>
-              
-                          <div class="content">
-                            Christ Church Cathedral, more formally The Cathedral of the Holy Trinity, is the cathedral of the United Dioceses of Dublin and Glendalough and the cathedral of the ecclesiastical province of the United Provinces of Dublin and Cashel in the (Anglican) Church of Ireland.It is situated in Dublin, Ireland, and is the elder of the capital city's two medieval cathedrals, the other being St Patrick's Cathedral.
-                          </div>
-                        </div>
-                          <footer class="card-footer">
-                          <a href="https://www.virtualvisittours.com/christ-church-cathedral/" target="_blank" class="card-footer-item">Visit Christchurch 360&deg;</a>
-                          <a href="https://christchurchcathedral.ie/" target="_blank" class="card-footer-item">Visit Website</a>
-
-                        </footer>
-                      </div>
-                </div>
-        </div>
-        <div class="columns">
-          <div class="column">
-              <div class="card">
-
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-left">
-                        <figure class="image is-128x128">
-                          <img src="media/images/Guinness.jpg" alt="Placeholder image">
-                        </figure>
-                      </div>
-                      <div class="media-content">
-                        <p class="title is-4">Guinness Storehouse</p>
-                        <p class="subtitle is-6">Guinness Tour</p>
-                      </div>
-                    </div>
-        
-                    <div class="content">
-                      Guinness Storehouse is a tourist attraction at St. James's Gate Brewery in Dublin, Ireland. Since opening in 2000, it has received over twenty million visitors. 
-
-                      It is open from 9.30am daily with last entry at 5pm and closing at 7pm.
-                      
-                      The Storehouse covers seven floors surrounding a glass atrium shaped in the form of a pint of Guinness. The ground floor introduces the beer's four ingredients (water, barley, hops and yeast), and the brewery's founder, Arthur Guinness. Other floors feature the history of Guinness advertising and include an interactive exhibit on responsible drinking. The seventh floor houses the Gravity Bar with views of Dublin and where visitors may drink a pint of Guinness included in the price of admission.Visitors can avail of up to 25% off when booking online
-                      
-                      There is also an experimental taproom located in the heart of the working St James Gate brewery, home to the small batch beer creations from the innovation brewers at Guinness which visitors can visit for a unique experience.
-                    </div>
-                  </div>
-                    <footer class="card-footer">
-                    <a href="https://www.virtualvisittours.com/guinness-storehouse/" target="_blank" class="card-footer-item">Visit Guinness 360&deg;</a>
-                    
-                    <a href="https://www.guinness-storehouse.com/en" target="_blank" class="card-footer-item">Visit Website</a>
-            
-                    <a href="https://www.guinnessopengate.com" target="_blank" class="card-footer-item">Visit Open Gate</a>
-                  </footer>
-                </div>
-          </div>
-
-          <div class="column">
-              <div class="card">
-
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-left">
-                        <figure class="image is-128x128">
-                          <img src="media/images/stPatsCathedral.jpg" alt="Placeholder image">
-                        </figure>
-                      </div>
-                      <div class="media-content">
-                        <p class="title is-4">St. Patrick's Cathedral</p>
-                        <p class="subtitle is-6">Cathedral</p>
-                      </div>
-                    </div>
-        
-                    <div class="content">
-                      Saint Patrick's Cathedral (Irish: Ard-Eaglais Naomh Pádraig) in Dublin, Ireland, founded in 1191, is the National Cathedral of the Church of Ireland. With its 43-metre (141 ft) spire, St. Patrick's is the tallest church (not cathedral) in Ireland and the largest. Christ Church Cathedral, also a Church of Ireland cathedral in Dublin, is designated as the local cathedral of the diocese of Dublin and Glendalough.
-                    </div>
-
-                  </div>
-                    <footer class="card-footer">
-                    <a href="#" target="_blank" class="card-footer-item">Visit St. Patrick's 360&deg;</a>
-                    <a href="https://www.stpatrickscathedral.ie/" target="_blank" class="card-footer-item">Visit Website</a>
-                    
-                  </footer>
-              </div>
-          </div>
-  </div>
-        </div>
-         
-      </div>
-  </section>
-  <!-- Museums Section-->
-  <section class="section" id="museumSection">
-    <h2 id="museums" class="title">Museums &amp; Galleries</h2>
-    <hr>
-
-    <div class="container">
-        <div id="museumCols">
-        <div class="columns">
-            <div class="column">
-                <div class="card">
-
-                    <div class="card-content">
-                      <div class="media">
-                        <div class="media-left">
-                          <figure class="image is-96x96">
-                            <img src="media/images/nationalGallery.jpeg" alt="Placeholder image">
-                          </figure>
-                        </div>
-                        <div class="media-content">
-                          <p class="title is-4">National Gallery of Ireland</p>
-                          <p class="subtitle is-6">Gallery</p>
-                        </div>
-                      </div>
-          
-                      <div class="content">
-                        Grand collection of European art spanning the 14th to the 20th-century covering all major schools.
-                        Their mission is to care for, interpret, develop and showcase art in a way that makes the National Gallery of Ireland an exciting place to encounter art.  They aim to provide an outstanding experience that inspires an interest in and an appreciation of art for all.  They are dedicated to bringing people and their art togeth
-                      </div>
-                    </div>
-                      <footer class="card-footer">
-                      <a href="https://www.virtualvisittours.com/national-gallery-of-ireland/" target="_blank" class="card-footer-item">Visit National Gallery 360&deg;</a>
-
-                      <a href="https://www.nationalgallery.ie/" target="_blank" class="card-footer-item">Visit Website</a>
-                    </footer>
-                  </div>
-            </div>
-            <div class="column">
-              <div class="card">
-
-                <div class="card-content">
-                  <div class="media">
-                    <div class="media-left">
-                      <figure class="image is-128x128">
-                        <img src="media/images/naturalHistoryMuseum.jpeg" alt="Placeholder image">
-                      </figure>
-                    </div>
-                    <div class="media-content">
-                      <p class="title is-4">National Museum of Ireland- Natural History</p>
-                      <p class="subtitle is-6">Natural History Museum</p>
-                    </div>
-                  </div>
-      
-                  <div class="content">
-                    The National Museum of Ireland – Natural History (Irish: Ard-Mhúsaem na hÉireann – Stair an Dúlra), sometimes called the Dead Zoo, a branch of the National Museum of Ireland, is housed on Merrion Street in Dublin, Ireland. The museum was built in 1856 for parts of the collection of the Royal Dublin Society and the building and collection were later passed to the State.
-
-                    The Museum's collection and building have changed little since Victorian times, and it is sometimes described as a "museum of a museum." Admission is free. Attendance grew from 106 thousand in 2007 to over 336 thousand in 2017, despite staff shortages and closed sections.
-                  </div>
-                </div>
-                  <footer class="card-footer">
-                  <a href="https://www.museum.ie/Natural-History/Exhibitions/Current-Exhibitions/3D-Virtual-Visit-Natural-History" target="_blank" class="card-footer-item">Visit Natural History Museum 360&deg;</a>
-                  <a href="https://www.museum.ie/Natural-History" target="_blank" class="card-footer-item">Visit Website</a>
-                  
-                </footer>
-            </div>
-          </div>
-            <div class="column">
-                <div class="card">
-
-                    <div class="card-content">
-                      <div class="media">
-                        <div class="media-left">
-                          <figure class="image is-96x96">
-                            <img src="media/images/decorativeArts.jpg" alt="Placeholder image">
-                          </figure>
-                        </div>
-                        <div class="media-content">
-                          <p class="title is-4">National Museum of Ireland - Decorative Items</p>
-                          <p class="subtitle is-6">Decorative Items Museum</p>
-                        </div>
-                      </div>
-          
-                      <div class="content">
-                        The National Museum of Ireland - Decorative Arts & History (Irish: Ard-Mhúsaem na hÉireann - Na hEalaíona Maisiúla ⁊ Stair) is a branch of the National Museum of Ireland located at the former Collins Barracks in the Arbour Hill area of Dublin, Ireland.
-
-The site, opened in 1997, also holds the Museum's administrative centre, a shop and a coffee shop.
-
-This section has displays of furniture, silver, ceramics and glassware, as well as examples of folk life and costume, and money and weapons. The "Soldiers & Chiefs" exhibition features military artifacts and memorabilia tracing Ireland's military history from 1550 to the present. Other permanent exhibitions include ones on Irish coins and currency, silverware, furniture, the designer Eileen Gray, Asian art, "Curator's Choice" (including a Chinese porcelain vase from about 1300 AD, the Fonthill vase), folklife and costumes, ceramics, and glassware.
-
-Included are artifacts such as Etruscan vases, gauntlets worn by King William at the Battle of the Boyne, a life belt and oar salvaged from the wreck of the RMS Lusitania and a pocket book carried by Wolfe Tone whilst imprisoned in the Barracks.
-
-Special exhibitions are mounted regularly; in summer 2007, for example, replicas of six Irish High Crosses that were subsequently shown internationally.
-                      </div>
-                    </div>
-                      <footer class="card-footer">
-                      <a href="https://goo.gl/maps/CniiErCreug1oQor7" target="_blank" class="card-footer-item">Visit National Museum 360&deg;</a>
-                      <a href="https://www.museum.ie/Decorative-Arts-History" target="_blank" class="card-footer-item">Visit Website</a>
-                    </footer>
-                  </div>
-            </div>
-        </div>
-            <div class="columns">
-                <div class="column">
-                    <div class="card">
-    
-                        <div class="card-content">
-                          <div class="media">
-                            <div class="media-left">
-                              <figure class="image is-128x128">
-                                <img class="has-background-dark" src="media/images/epicLogo.png" alt="Placeholder image">
-                              </figure>
-                            </div>
-                            <div class="media-content">
-                              <p class="title is-4">Epic Ireland Museum</p>
-                              <p class="subtitle is-6">Irish Emigration Museum</p>
-                            </div>
-                          </div>
-              
-                          <div class="content">
-                            Go beyond the stereotypes at EPIC The Irish Emigration Museum
-                            You won’t find leprechauns or pots of gold here, but you’ll discover that what it means to be Irish expands far beyond the borders of Ireland through the stories of Irish emigrants who became scientists, politicians, poets, artists and even outlaws all over the world. Discover Ireland from the outside in and find out why saying “I’m Irish” is one of the biggest conversation starters, no matter where you are.
-                          </div>
-                        </div>
-                          <footer class="card-footer">
-                          <a href="https://dublin.epicchq.com/virtual-tour-epic-the-irish-emigration-museum?_ga=2.10085109.1585109003.1586654791-624164665.1586654791" target="_blank" class="card-footer-item">Visit Epic Ireland</a>
-                          <a href="https://dublin.epicchq.com" target="_blank" class="card-footer-item">Visit Website</a>
-                        </footer>
-                      </div>
-                </div>
-                <div class="column">
-                    <div class="card">
-    
-                        <div class="card-content">
-                          <div class="media">
-                            <div class="media-left">
-                              <figure class="image is-128x128">
-                                <img src="media/images/chesterBeatty.jpg" alt="Placeholder image">
-                              </figure>
-                            </div>
-                            <div class="media-content">
-                              <p class="title is-4">Chester Beatty Library</p>
-                              <p class="subtitle is-6">Asian Antiquites and Scrolls</p>
-                            </div>
-                          </div>
-              
-                          <div class="content">
-                            Described by Lonely Planet as ‘not just the best museum in Ireland but one of the best in Europe’, the Chester Beatty is the pre-eminent Irish museum promoting the appreciation and understanding of world cultures with holdings of manuscripts, rare books, and other treasures from Europe, the Middle East, North Africa and Asia. An engaging and welcoming space, visitors from Ireland and overseas will find permanent and temporary displays, an intercultural learning programme and a broad variety of public activities for all ages and backgrounds. 
-                          </div>
-                        </div>
-                          <footer class="card-footer">
-                          <a href="https://chesterbeatty.ie/about/museum-guide-app/" target="_blank" class="card-footer-item">Chester Beatty 360&deg;</a>
-                          <a href="https://chesterbeatty.ie/" target="_blank" class="card-footer-item">Visit Website</a>
-                        </footer>
-                      </div>
-                </div>
-                <div class="column">
-                  <div class="card">
-  
-                      <div class="card-content">
-                        <div class="media">
-                          <div class="media-left">
-                            <figure class="image is-128x128">
-                              <img src="media/images/IMMA.jpg" alt="Placeholder image IMMA">
-                            </figure>
-                          </div>
-                          <div class="media-content">
-                            <p class="title is-4">Irish Museum of Modern Art</p>
-                            <p class="subtitle is-6">Museum of Modern Art</p>
-                          </div>
-                        </div>
-            
-                        <div class="content">
-                          The Irish Museum of Modern Art (Irish: Áras Nua-Ealaíne na hÉireann) also known as IMMA, is Ireland's leading national institution for the collection and presentation of modern and contemporary art. Located in Kilmainham, Dublin, the Museum presents a wide variety of art in a changing programme of exhibitions, which regularly includes bodies of work from its own collection and its education and community department. It also aims to create more widespread access to art and artists through its studio and national programmes.
-
-                          The Museum’s mission is to foster within society an awareness, understanding and involvement in the visual arts through policies and programmes which are excellent, innovative and inclusive.
-                        </div>
-                      </div>
-                        <footer class="card-footer">
-                        <a href="https://www.virtualvisittours.com/irish-museum-of-modern-art/" target="_blank" class="card-footer-item">IMMA 360&deg;</a>
-                        <a href="https://imma.ie/" target="_blank" class="card-footer-item">Visit Website</a>
-                      </footer>
-                    </div>
-              </div>
-          </div>
-        </div>
-         
-    </div>
-  </section>
-  <!-- Landmarks Section  -->
-  <section class="section" id="landmarkSection">
-    <h2 id="landmarks" class="title">Landmarks</h2>
-    <hr>
-
-    <div class="container">
-        <div id="landmarkCols">
-        <div class="columns">
-            <div class="column">
-                <div class="card">
-
-                    <div class="card-content">
-                      <div class="media">
-                        <div class="media-left">
-                          <figure class="image is-128x128">
-                            <img src="media/images/fusiliersArch.jpeg" alt="Placeholder image">
-                          </figure>
-                        </div>
-                        <div class="media-content">
-                          <p class="title is-4">Fusiliers Arch</p>
-                          <p class="subtitle is-6">Arch entrance to Stephens Green</p>
-                        </div>
-                      </div>
-          
-                      <div class="content">
-                        Fusiliers' Arch is a monument which forms part of the Grafton Street entrance to St Stephen's Green park, in Dublin, Ireland. Erected in 1907, it was dedicated to the officers, non-commissioned officers and enlisted men of the Royal Dublin Fusiliers who fought and died in the Second Boer War (1899–1902).
-                      </div>
-                    </div>
-                      <footer class="card-footer">
-                      <a href="https://earth.app.goo.gl/Y2s6Vo" target="_blank" class="card-footer-item">Visit Fusiliers Arch</a>
-                    </footer>
-                  </div>
-            </div>
-            <div class="column">
-                <div class="card">
-
-                    <div class="card-content">
-                      <div class="media">
-                        <div class="media-left">
-                          <figure class="image is-128x128">
-                            <img src="media/images/cityHall.jpg" alt="Placeholder image">
-                          </figure>
-                        </div>
-                        <div class="media-content">
-                          <p class="title is-4">City Hall</p>
-                          <p class="subtitle is-6">Dublin City Hall</p>
-                        </div>
-                      </div>
-          
-                      <div class="content">
-                        This Georgian-style civic building with a rotunda offers a multi-media exhibition, tours and lectures.
-                        City Hall was built between 1769 and 1779. The build took ten years to complete. When they decided to build City Hall a competition was advertised and 62 submissions were made. The winner of this Competition was Thomas Cooley, a young architect from London. At the time, James Gandon would have been the primary architect in Dublin, but his designs came second in the competition. Thomas Cooley was also tendered to build the Four Courts, however at 44 years of age, he fell ill and died and therefore James Gandon became the primary architect in the building of the Four Courts.
-                      </div>
-                    </div>
-                      <footer class="card-footer">
-                      <a href="https://earth.app.goo.gl/kwobGs" target="_blank" class="card-footer-item">Visit Dublin City Hall</a>
-                      <a href="http://www.dublincity.ie/dublincityhall" target="_blank" class="card-footer-item">Visit Website</a>
-                    </footer>
-                  </div>
-            </div>
-            <div class="column">
-                <div class="card">
-
-                    <div class="card-content">
-                      <div class="media">
-                        <div class="media-left">
-                          <figure class="image is-128x128">
-                            <img src="media/images/graftonStreet.jpg" alt="Placeholder image">
-                          </figure>
-                        </div>
-                        <div class="media-content">
-                          <p class="title is-4">Grafton Street</p>
-                          <p class="subtitle is-6">Pedestrian Street</p>
-                        </div>
-                      </div>
-          
-                      <div class="content">
-                        Grafton Street (Irish: Sráid Grafton) is one of the two principal shopping streets in Dublin city centre, the other being Henry Street. It runs from St Stephen's Green in the south (at the highest point of the street) to College Green in the north (to the lowest point). In 2008, Grafton Street was the fifth most expensive main shopping street in the world, at €5,621/m²/year,[1] and the thirteenth most expensive main shopping street in the world in 2016 at approx €3,300/m²/year.
-                      </div>
-                    </div>
-                      <footer class="card-footer">
-                      <a href="https://goo.gl/maps/4WZ9waff2nwT95az5" target="_blank" class="card-footer-item">Visit Grafton Street</a>
-                    </footer>
-                  </div>
-            </div>
-        </div>
-            <div class="columns">
-                <div class="column">
-                    <div class="card">
-    
-                        <div class="card-content">
-                          <div class="media">
-                            <div class="media-left">
-                              <figure class="image is-128x128">
-                                <img src="media/images/oconnellBridge.jpg" alt="Placeholder image">
-                              </figure>
-                            </div>
-                            <div class="media-content">
-                              <p class="title is-4">O'Connell Bridge</p>
-                              <p class="subtitle is-6">formerly Carlisle Bridge</p>
-                            </div>
-                          </div>
-              
-                          <div class="content">
-                            O'Connell Bridge (Irish: Droichead Uí Chonaill)[2] is a road bridge spanning the River Liffey in Dublin, and joining O'Connell Street to D'Olier Street, Westmoreland Street and the south quays.
-
-
-                            View from the south side to the north side with the spire in the background.
-              
-                            The original bridge (named Carlisle Bridge for the then Lord Lieutenant of Ireland – Frederick Howard, 5th Earl of Carlisle) was designed by James Gandon, and built between 1791 and 1794.[3]
-                            
-                            Originally humped,[3] and narrower, Carlisle bridge was a symmetrical, three semicircular arch structure constructed in granite with a Portland stone balustrade and obelisks on each of the four corners.[4] A keystone head at the apex of the central span symbolises the River Liffey, corresponding to the heads on the Custom House (also designed by James Gandon) which personify the other great rivers of Ireland.
-                          </div>
-                        </div>
-                          <footer class="card-footer">
-                          <a href="https://goo.gl/maps/NmXpJW1tDRg6jRBe9" target="_blank" class="card-footer-item">Visit O'Connell Bridge</a>
-                        </footer>
-                      </div>
-                </div>
-                <div class="column">
-                    <div class="card">
-    
-                        <div class="card-content">
-                          <div class="media">
-                            <div class="media-left">
-                              <figure class="image is-128x128">
-                                <img src="media/images/georgesArcade.png" alt="Placeholder image">
-                              </figure>
-                            </div>
-                            <div class="media-content">
-                              <p class="title is-4">Georges Street Arcade</p>
-                              <p class="subtitle is-6">Shopping Arcade</p>
-                            </div>
-                          </div>
-              
-                          <div class="content">
-                            City centre shopping in George’s Street Arcade (Dublin 2), Ireland’s first purpose-built shopping centre, and one of Europe’s oldest city markets, is a wonderful experience! Located in the heart of Dublin city centre in the cultural quarter area it is less than 5 minutes walk from Grafton Street and Temple Bar and Trinity College.
-
-                            In this enclosed Victorian market you can enjoy ‘independent’ boutique shops and stalls ranging from trendy often, vintage, clothing, jewellery, funky music, collectable items, souvenirs and much more along with wonderful dining and food options.
-                            
-                            Come and savour this wonderful arcade which has been serving Dublin since 1881!
-                          
-                          </div>
-                        </div>
-                          <footer class="card-footer">
-                          <a href="https://goo.gl/maps/oLEqjUv5eGpRCZZV6" target="_blank" class="card-footer-item">Visit Georges St. Arcade</a>
-                          <a href="https://georgesstreetarcade.ie/" target="_blank" class="card-footer-item">Visit Website</a>
-                        </footer>
-                      </div>
-                </div>
-                <div class="column">
-                    <div class="card">
-    
-                        <div class="card-content">
-                          <div class="media">
-                            <div class="media-left">
-                              <figure class="image is-128x128">
-                                <img src="media/images/theSpire.jpg" alt="Placeholder image">
-                              </figure>
-                            </div>
-                            <div class="media-content">
-                              <p class="title is-4">The Spire & O'Connell Street</p>
-                              <p class="subtitle is-6">Monument of Light</p>
-                            </div>
-                          </div>
-              
-                          <div class="content">
-                            The Spire of Dublin, alternatively titled the Monument of Light (Irish: An Túr Solais), is a large, stainless steel, pin-like monument 120 metres (390 ft) in height,[3] located on the site of the former Nelson's Pillar on O'Connell Street in Dublin, Ireland.
-                          </div>
-                        </div>
-                          <footer class="card-footer">
-                          <a href="https://goo.gl/maps/uEYBk7WT9rXQC6SV7" target="_blank" class="card-footer-item">Visit Spire &amp; O'Connell st.</a>
-                        </footer>
-                      </div>
-                </div>
-          </div>
-        </div>
-         
-    </div>
-  </section>
-  <div id="bookingad">
-    <ins class="bookingaff" data-aid="2011406" data-target_aid="2011406" data-prod="banner" data-width="728" data-height="90" data-lang="en">
-      <!-- Anything inside will go away once widget is loaded. -->
-          <a href="//www.booking.com?aid=2011406">Booking.com</a>
-  </ins>
-  <script type="text/javascript">
-      (function(d, sc, u) {
-        var s = d.createElement(sc), p = d.getElementsByTagName(sc)[0];
-        s.type = 'text/javascript';
-        s.async = true;
-        s.src = u + '?v=' + (+new Date());
-        p.parentNode.insertBefore(s,p);
-        })(document, 'script', '//aff.bstatic.com/static/affiliate_base/js/flexiproduct.js');
-  </script>
-  </div>
- 
-  <!--Footer-->
-  <footer class="footer">
-    <div class="content has-text-centered">
-      <p>
-        <strong>Dublin-360</strong> by <a href="https://www.linkedin.com/in/dermotmurphyirl">Dermot Murphy</a>.<br>
-        See the city the right way!
-      </p>
-      <a href="https://bulma.io">
-        <img src="media/images/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
-      </a>
-    </div>
-  </footer>
-  </div>
-  <!---Sticky Bottoom Navbar-->
-  <nav class="navbar is-fixed-bottom" aria-label="main navigation">
-    <div class="navbar-brand">
-      <!-- navbar items, navbar burger...left side of navbar -->
-      <a class="navbar-item" href="index.html">
-        <img src="media/images/Logo.png" alt="Dublin-360 logo" width="64" height="28">
-      </a>
-
-<!--       <a role="button" class="navbar-burger is-burger-up burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a> -->
-    </div>
-    <div id="navbarSticky" class="navbar-menu">
-      <div class="navbar-start">
-        <a class="navbar-item" href="index.html">
-          Home
-        </a>
-  
-        <a class="navbar-item" href="mailto:info@dublin-360.com?subject=WebsiteContact">
-          Contact
-        </a>
-  
-        <div class="navbar-item has-dropdown is-hoverable has-dropdown-up">
-          <a class="navbar-link">
-            Categories
-          </a>
-  
-          <div class="navbar-dropdown">
-            <a class="navbar-item" href="#bars">
-              Bars
-            </a>
-            <a class="navbar-item" href="#parks">
-              Parks
-            </a>
-            <a class="navbar-item" href="#attractions">
-              Tourist Attractions
-            </a>
-            <a class="navbar-item" href="#museums">
-              Museums & Galleries
-            </a>
-            <a class="navbar-item" href="#landmarks">
-              Landmarks
-            </a>
-          </div>
-        </div>
-      </div>
-      </div>
-  </nav>
-
-  <script>document.addEventListener('DOMContentLoaded', () => {
-
-    // Get all "navbar-burger" elements
-    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-  
-    // Check if there are any navbar burgers
-    if ($navbarBurgers.length > 0) {
-  
-      // Add a click event on each of them
-      $navbarBurgers.forEach( el => {
-        el.addEventListener('click', () => {
-  
-          // Get the target from the "data-target" attribute
-          const target = el.dataset.target;
-          const $target = document.getElementById(target);
-  
-          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-          el.classList.toggle('is-active');
-          $target.classList.toggle('is-active');
-  
-        });
-      });
-    }
-  
-  });</script>
-  <script>
-  document.getElementById("barCount").innerHTML  = document.querySelectorAll('#barCols .title').length; 
-  document.getElementById("attractionCount").innerHTML  = document.querySelectorAll('#attractionCols .title').length; 
-  document.getElementById("museumCount").innerHTML  = document.querySelectorAll('#museumCols .title').length; 
-  document.getElementById("parkCount").innerHTML  = document.querySelectorAll('#parkCols .title').length; 
-  document.getElementById("landmarkCount").innerHTML  = document.querySelectorAll('#landmarkCols .title').length; 
-  </script>
- 
-  </body>
 </html>
