@@ -45,6 +45,7 @@ hr{
     background-color: red;
     max-width: 70%;
     border-top: 6px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
 }
 
 /*-- custom styling for all icons --*/
@@ -373,7 +374,8 @@ form label{
     text-decoration: none;
     font-size: 35px;
     font-weight: 800;
-    color:rgba(117, 44, 44, 0.8);
+    color:red;
+    opacity: 0.8;
 }
 
 #book-container p{
@@ -416,17 +418,21 @@ form label{
 
 
 
-.bg1 {
+.bg-deluxe {
     background-image: url(../media/images/molloys/online/MolloysAccom_20180618_-3.jpg);
-    color:#333333;
+    color:#666666;
 }
 
 .bg2{
-    background-image: url(../media/images/grogansHDR.jpg);
+    background-image: url(../media/images/molloys/online/MolloysAccom_20180618_-8.jpg);
     color:#333333;
 }
 
 .bg-studio{
     background-image: url(../media/images/molloys/online/MolloysAccom_20180618_-58.jpg);
-    color: #333333;
+    color:yellow;
+}
+
+.bg-studio > p{
+    color:yellow !important;
 }
