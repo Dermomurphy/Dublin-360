@@ -353,7 +353,7 @@ form label{
 
 #book-container >div {
     cursor: pointer;
-    height: 210px;
+    height: 240px;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -385,7 +385,9 @@ form label{
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
-    color: #fafafa;
+    color: #000000;
+    background-color: antiquewhite;
+    opacity: 0.7;
    
 }
 #book-container a{
@@ -439,6 +441,21 @@ form label{
     background-image: url(../media/images/molloys/online/MolloysAccom_20180618_-58.jpg);
 }
 
+.bg-single{
+    background-image: url(../media/images/molloys/online/MolloysAccom_20180618_-25.jpg);
+}
+
+.bg-pod{
+    background-image: url(../media/images/JacobsInn/JacobsInnPod.jpg);
+}
+
+.bg-newmill{
+    background-image: url(../media/images/NewMill/Dublin-360NM.jpg);
+}
+
+.bg-tannery{
+    background-image: url(../media/images/Tannery/LRG_DSC04553-HDR.jpg);
+}
 .bg-studio > h2{
     color: yellow !important;
 }
@@ -475,7 +492,7 @@ form label{
     text-decoration: none;
     font-size: 16px;
     font-weight: 400;
-    color: #fafafa;
+    color: #000000;
    
 }
 
@@ -532,7 +549,7 @@ form label{
 #book-container h2 {
     text-decoration: none;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 800;
     color:red;
     background-color: #333333;
     padding: 2px;
@@ -542,8 +559,8 @@ form label{
 #book-container p{
     text-decoration: none;
     font-size: 12px;
-    font-weight: 500;
-    color: #fafafa;
+    font-weight: 600;
+    color: #000000;
    
 }
 
