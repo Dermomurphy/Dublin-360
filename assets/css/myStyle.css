@@ -355,6 +355,9 @@ form label{
     cursor: pointer;
     height: 240px;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
@@ -378,7 +381,7 @@ form label{
     color:red;
     background-color: #333333;
     padding: 4px;
-    opacity: 0.7;
+    opacity: 0.75;
 }
 
 #book-container p{
@@ -387,7 +390,7 @@ form label{
     font-weight: 500;
     color: #000000;
     background-color: antiquewhite;
-    opacity: 0.7;
+    opacity: 0.69;
    
 }
 #book-container a{
@@ -429,12 +432,10 @@ form label{
 
 .bg-deluxe {
     background-image: url(../media/images/molloys/online/MolloysAccom_20180618_-3.jpg);
-    color:#666666;
 }
 
-.bg2{
+.bg-2{
     background-image: url(../media/images/molloys/online/MolloysAccom_20180618_-8.jpg);
-    color:#333333;
 }
 
 .bg-studio{
@@ -445,8 +446,12 @@ form label{
     background-image: url(../media/images/molloys/online/MolloysAccom_20180618_-25.jpg);
 }
 
+.bg-marlin{
+
+    background-image: url(../media/images/MarlinHotel/marlinHotel.jpg);
+}
 .bg-pod{
-    background-image: url(../media/images/JacobsInn/JacobsInnPod.jpg);
+    background-image: url(../media/images/JacobsInn/Pods2.jpg);
 }
 
 .bg-newmill{
@@ -455,9 +460,17 @@ form label{
 
 .bg-tannery{
     background-image: url(../media/images/Tannery/LRG_DSC04553-HDR.jpg);
+
+
 }
-.bg-studio > h2{
+
+/* -- Header Colours --*/
+.yellow-header a>h2{
     color: yellow !important;
+}
+
+.blue-header a> h2{
+    color:rgb(10, 163, 235) !important;
 }
 
 /*-- Media Queries Booking page --*/
@@ -482,7 +495,6 @@ form label{
     text-decoration: none;
     font-size: 28px;
     font-weight: 600;
-    color:red;
     background-color: #333333;
     padding: 2px;
     opacity: 0.7;
@@ -550,7 +562,6 @@ form label{
     text-decoration: none;
     font-size: 20px;
     font-weight: 800;
-    color:red;
     background-color: #333333;
     padding: 2px;
     opacity: 0.7;
