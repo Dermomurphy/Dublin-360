@@ -489,6 +489,10 @@ form label{
 
 #book-container > div {
     height: 180px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 #book-container h2 {
@@ -556,6 +560,10 @@ form label{
 
 #book-container > div {
     height: 150px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 #book-container h2 {
