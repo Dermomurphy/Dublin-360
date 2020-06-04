@@ -353,7 +353,7 @@ form label{
 
 #book-container >div {
     cursor: pointer;
-    height: 240px;
+    height: 400px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -488,11 +488,13 @@ form label{
 } 
 
 #book-container > div {
+    cursor: pointer;
     height: 180px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    background-attachment: fixed;
 }
 
 #book-container h2 {
@@ -559,11 +561,13 @@ form label{
 } 
 
 #book-container > div {
+    cursor: pointer;
     height: 150px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    background-attachment: fixed;
 }
 
 #book-container h2 {
