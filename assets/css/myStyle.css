@@ -489,7 +489,7 @@ form label{
 
 #book-container > div {
     cursor: pointer;
-    height: 180px;
+    height: 240px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -562,7 +562,7 @@ form label{
 
 #book-container > div {
     cursor: pointer;
-    height: 150px;
+    height: 200px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -614,4 +614,64 @@ form label{
     #book-container > div:nth-of-type(10){
         grid-column: 1/3;
     }
+}
+
+/* -- Groups Page --*/
+
+.card-groups{
+    min-width: 300px;
+   
+}
+
+.card-groups > .card-body{
+    height: auto;
+    min-height: 700px;
+
+}
+
+.pricing-header{
+    background-color: tomato;
+    margin-bottom: 20px;
+}
+
+/* -- E-Book Page CSS --*/
+
+#ebookBackgroundImage {
+    display: cover;
+    justify-content: center;
+    background-image: url('../media/images/DLDExterior.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ebookContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  
+    
+}
+
+.ebookContent > p {
+   color: lightslategray;
+   max-width: 70%;
+  
+    
+}
+
+#ebookCover {
+    background-color: #fafafa;
+    background-image: url('../media/images/50\ Things\ to\ Do\ in\ Dublin.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 25%;
+    width: 300px;
+    height:400px;
 }

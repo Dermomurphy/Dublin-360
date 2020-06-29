@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Primary Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>50 Things to Do in Dublin E-Book</title>
+    <!---Social Media Meta Tags-->
+    <meta name="title" content="Dublin-360 - 50 Things to Do in Dublin E-Book">
+    <meta name="description" content="See Dublin City in 360 Format |
+Hospitality Consultancy Services & Accommodation">
+    <meta name="keywords"
+        content="Dublin City,Hospitality consultancy services, Dublin Things to do, Dublin Accommodation, Dublin apartments, Dublin cheap apartments, Dublin stay, Dublin 360, Dublin, Dublin booking, Dublin sights, Dublin virtual tours">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dublin-360.com/e-book.html">
+    <meta property="og:title" content="Dublin-360">
+    <meta property="og:description" content="See Dublin City in 360 Format |
+Hospitality Consultancy Services & Accommodation">
+    <meta property="og:image" content="assets/media/images/TCD.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://dublin-360.com/e-book.html">
+    <meta property="twitter:title" content="Dublin-360">
+    <meta property="twitter:description" content="See Dublin City in 360 Format |
+Hospitality Consultancy Services & Accommodation">
+    <meta property="twitter:image" content="assets/media/images/Logo.png">
+    <!--Icon-->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/media/images/favicon/favicon-32x32.png" />
+    <!---Bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <!---Fontawesome CSS CDN-->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/myStyle.css" />
+</head>
+<!-- Load Stripe.js on your website. -->
+<script src="https://js.stripe.com/v3"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 ebookContent container">
+                <img src="./assets/media/images/Logo.png" width="200" height = "100"alt="D360 logo">
+
+                <h1>50 Things to Do in Dublin</h1>
+                <p>E-Book</p>
+                <h2>Download one of the best guides about Dublin City</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro accusamus exercitationem ea totam
+                    praesentium aperiam similique qui fugiat natus dignissimos repellendus enim neque sed deserunt
+                    quibusdam provident, voluptatum dolorum ipsum.</p>
+                <small>&copy;Dublin-360</small> <br>
+                <h1>Only €3 </h1>
+                <!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+                <button
+                    id="checkout-button-price_1GwuFtCQ3wRAQCI0Eq66zbCF" class="btn btn-info btn-lg ebook-button" role="link">
+                    Purchase E-Book
+                </button>
+                <hr class="my-4" />
+                <div><a href="./index.html" class="btn btn-info btn-lg" role="button">Go Back</a></div>
+            </div>
+            <div class="col-md-6" id="ebookBackgroundImage" style="height: 100vh">
+                <div id="ebookCover"></div>
+            </div>
+        </div>
+    </div>
+    <div id="error-message"></div>
+
+    <script>
+        (function () {
+            var stripe = Stripe('pk_test_874mtiK6L9XLCW5oyWO7pFsL00SMaGOLAB');
+
+            var checkoutButton = document.getElementById('checkout-button-price_1GwuFtCQ3wRAQCI0Eq66zbCF');
+            checkoutButton.addEventListener('click', function () {
+                // When the customer clicks on the button, redirect
+                // them to Checkout.
+                stripe.redirectToCheckout({
+                    lineItems: [{ price: 'price_1GwuFtCQ3wRAQCI0Eq66zbCF', quantity: 1 }],
+                    mode: 'payment',
+                    // Do not rely on the redirect to the successUrl for fulfilling
+                    // purchases, customers may not always reach the success_url after
+                    // a successful payment.
+                    // Instead use one of the strategies described in
+                    // https://stripe.com/docs/payments/checkout/fulfillment
+                    successUrl: 'https://www.dublin-360.com/success.html',
+                    cancelUrl: 'https://www.dublin-360.com/e-book.html',
+                    billingAddressCollection: 'required',
+                    submitType: 'pay',
+
+                })
+                    .then(function (result) {
+                        if (result.error) {
+                            // If `redirectToCheckout` fails due to a browser or network
+                            // error, display the localized error message to your customer.
+                            var displayError = document.getElementById('error-message');
+                            displayError.textContent = result.error.message;
+                        }
+                    });
+            });
+        })();
+    </script>
+
+    <!--- Bootstrap JQuery Popper JS-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
